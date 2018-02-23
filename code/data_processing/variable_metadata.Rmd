@@ -10,7 +10,7 @@ This is a more opinionated version of [Example 1](https://ccgilroy.github.io/ffc
 Instead of leaving some variables as unknown, it classifies *all* variables as either categorical or continuous. Instead of relying on users of the metadata to make corrections, it manually corrects censored variables and other variables that have been clearly misclassified. Misclassifications are determined as indicated by the variable metadata (the variable label and the number of unique values), using the author's best judgment. 
 
 ```{r setup, include=FALSE}
-knitr::opts_knit$set(root.dir = "..")
+knitr::opts_knit$set(root.dir = rprojroot::find_root("ffc-humans-in-the-loop.Rproj"))
 ```
 
 ```{r init, message=FALSE}
@@ -129,10 +129,10 @@ continuous_vars <-
 Store output.
 
 ```{r write_output}
-if (!dir.exists("output")) dir.create("output")
+if (!dir.exists("data/variables")) dir.create("data/variables")
 write_csv(variable_types, "data/variables/variable_metadata.csv")
 
-write_lines(categorical_to_continuous, "output/categorical_to_continuous.txt")
-write_lines(categorical_vars, "output/categorical.txt")
-write_lines(continuous_vars, "output/continuous.txt")
+write_lines(categorical_to_continuous, "data/variables/categorical_to_continuous.txt")
+write_lines(categorical_vars, "data/variables/categorical.txt")
+write_lines(continuous_vars, "data/variables/continuous.txt")
 ```
