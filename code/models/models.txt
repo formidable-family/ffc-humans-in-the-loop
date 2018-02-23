@@ -1,0 +1,3 @@
+Put modeling functions here. 
+
+These functions should be of the form function(data, outcome, covariates, ...).

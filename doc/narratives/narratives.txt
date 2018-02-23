@@ -1,0 +1,2 @@
+Put the 'narrative.txt' file for each set of predictions in a subdirectory. 
+The subdirectory should be named with the name of the predictions.

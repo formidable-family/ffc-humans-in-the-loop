@@ -1,0 +1,1 @@
+Put variable names of covariates for each outcome here.

@@ -1,0 +1,138 @@
+---
+title: "Variable Metadata"
+author: "Connor Gilroy"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+---
+
+This is a more opinionated version of [Example 1](https://ccgilroy.github.io/ffc-data-processing/vignettes/example1.html). 
+
+Instead of leaving some variables as unknown, it classifies *all* variables as either categorical or continuous. Instead of relying on users of the metadata to make corrections, it manually corrects censored variables and other variables that have been clearly misclassified. Misclassifications are determined as indicated by the variable metadata (the variable label and the number of unique values), using the author's best judgment. 
+
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = "..")
+```
+
+```{r init, message=FALSE}
+source("code/data_processing/init.R")
+```
+
+```{r create_variable_metadata}
+# this section is almost identical to Example 1
+# process all variables, making best guess about character variables
+# does not handle missing values, does not remove any variables
+# then summarize variable type information 
+
+background <- read_dta("data/background.dta")
+
+background_processed <- 
+  background %>%
+  recode_na_character() %>%
+  labelled_to_factor() %>%
+  labelled_to_numeric() %>%
+  character_to_factor() %>%
+  character_to_numeric() %>%
+  # use a less conservative threshold than default
+  character_to_factor_or_numeric(threshold = 29) 
+
+variable_types <- summarize_variables(background, background_processed)
+
+variable_types %>%
+  group_by(variable_type) %>% 
+  count()
+```
+
+Now, look at variable metadata and look for misclassified variables.
+
+```{r examine_variable_metadata}
+# This process is also described in the integration vignette
+variable_metadata <- 
+  variable_types %>%
+  arrange(variable_type, desc(unique_values))
+
+variable_metadata %>% head(10) %>% print(width = 93)
+```
+
+Below are indices of variables that have been classified as categorical, but *should* be classified as continuous, **as ordered by variable type and unique values**. 
+
+- The first group are generally clearly continuous. Often these are censored at the top or bottom of their range.
+- The second group are often ordinal, referring to e.g. income brackets. Some income variables refer to labelled income brackets (e.g. `f1j16a, b, c, d`), others have some noise incorporated and are addressed as part of the first group.
+- The third group are a series of ordinal questions asked to the child in wave 5.
+
+```{r}
+# variables selected manually
+indices <- c(1:45, 47:63, 66, 68:72, 77:80, 83:84, 87:88, 91:92, 97, 101:102,
+             106:107, 116:119, 121:122, 127:130, 151, 154:160, 174, 179, 182,
+             185:186, 219:223, 260, 277:282, 300, 335:345, 362, 452:462, 945,
+             960:961, 972:980, 1003:1007, 1029:1033)
+
+# income and expense variables (also manual)
+# (ordinal, very inconsistent scales, frequently unevenly spaced)
+inc_and_exp <- c(98, 108, 188, 320:321, 327:328, 333, 347, 349, 350, 357:358,
+                 377:378, 390, 394, 400:401, 403:404, 464:465, 962)
+# some child-support variables are more similar to the days/week variables 
+# described below; these are excluded
+
+# kid questions - frequency, amount
+k5 <- c(1118:1159)
+
+categorical_to_continuous <- 
+  variable_metadata$variable[c(indices, inc_and_exp, k5)]
+
+categorical_to_continuous
+```
+
+**THIS IS *NOT* A COMPREHENSIVE LIST OF VARIABLES THAT COULD BE RECLASSIFIED FROM CATEGORICAL TO CONTINUOUS.** 
+
+Some variables that *can't* really be dealt with using this method, and are left as categorical despite being mostly numeric:
+
+- variables like `m4c22b` which ask how many days a month a child is supposed to spend with the other parent in case of divorce/separation, but includes options like "Every other week" in addition to 0-31.
+- variables like `m2b18b` which ask about # days/week a parent does an activity with the child, but includes options like "several" in addition to 0-7. There are an estimated **230** variables like this.
+
+Some that *might* be addressable, but that I don't address. These tend to be small ordinal scales: 
+
+- `m2c23a-f` is often-never (1-4), but may have weird values.
+- some are 1-5  (least like to most like), like `m2b17e`.
+- there are lots of other "frequency", "how often", and "amount" questions, many of which are truncated. The biggest "gotcha" is when one of these questions has a large value used as an indicator (e.g. 1-5, 201, 202...). It's hard to predict when they will.
+
+An idea to help validate classification would be to look for keywords in the labels like "how much" or "why" that indicate a continuous or categorical response, respectively.
+
+Now, relabel the variables listed above.
+
+```{r}
+variable_types <- 
+  variable_types %>%
+  mutate(
+    variable_type = ifelse(variable %in% categorical_to_continuous, 
+                           "continuous", variable_type)
+    )
+
+variable_types %>%
+  group_by(variable_type) %>%
+  count()
+```
+
+Get the names of categorical and continuous variables.
+
+```{r store_variable_types}
+categorical_vars <- 
+  variable_types %>%
+  filter(variable_type == "categorical") %>%
+  .$variable
+
+continuous_vars <- 
+  variable_types %>%
+  filter(variable_type == "continuous") %>%
+  .$variable
+```
+
+Store output.
+
+```{r write_output}
+if (!dir.exists("output")) dir.create("output")
+write_csv(variable_types, "data/variables/variable_metadata.csv")
+
+write_lines(categorical_to_continuous, "output/categorical_to_continuous.txt")
+write_lines(categorical_vars, "output/categorical.txt")
+write_lines(continuous_vars, "output/continuous.txt")
+```

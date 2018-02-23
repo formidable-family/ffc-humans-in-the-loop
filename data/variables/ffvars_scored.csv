@@ -1,0 +1,895 @@
+"outcome","idea","user.submitted","ffvar","experts","mturkers"
+"eviction","Child's birth weight",FALSE,"cm1lbw",15.2542,NA
+"eviction","Child's exposure to someone smoking",TRUE,"hv4a24",NA,42.8571
+"eviction","Child's exposure to someone smoking",TRUE,"p5h15c",NA,42.8571
+"eviction","Child's exposure to someone smoking",TRUE,"p5q3cr",NA,42.8571
+"eviction","Child's gender",FALSE,"cm1bsex",6.34921,16.6667
+"eviction","Child's gender",FALSE,"hv4sex_child",6.34921,16.6667
+"eviction","Child's learning disability",TRUE,"kind_a13",NA,8.33333
+"eviction","Child's physical disability",TRUE,"hv3a2",NA,14.2857
+"eviction","Child's race",FALSE,"f1h3",62.7451,29.8305
+"eviction","Child's race",FALSE,"m1h3",62.7451,29.8305
+"eviction","Divorce or separation",FALSE,"m2a8c",71.875,73.3788
+"eviction","Domestic violence",TRUE,"f3a8b_7",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d7m",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d7n",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d7n1",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d7o",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9h",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9i",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9m",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9n",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9n1",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9o",73.4694,NA
+"eviction","Domestic violence",TRUE,"f3d9p",73.4694,NA
+"eviction","Domestic violence",TRUE,"f4a8b_7",73.4694,NA
+"eviction","Domestic violence",TRUE,"f5b26x_10",73.4694,NA
+"eviction","Domestic violence",TRUE,"f5f26b2_10",73.4694,NA
+"eviction","Domestic violence",TRUE,"f5f28a_10",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3a8b_7",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d7m",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d7n",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d7n1",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d7o",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d7p",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d7p1",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9i",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9m",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9n",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9n1",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9o",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9p",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3d9p1",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3e23o",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3e23p",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3e23p1",73.4694,NA
+"eviction","Domestic violence",TRUE,"m3e23q",73.4694,NA
+"eviction","Domestic violence",TRUE,"m4a8b_7",73.4694,NA
+"eviction","Domestic violence",TRUE,"m5b30a1_10",73.4694,NA
+"eviction","Domestic violence",TRUE,"m5f26b2_10",73.4694,NA
+"eviction","Domestic violence",TRUE,"m5f28a_10",73.4694,NA
+"eviction","Existing number of siblings",FALSE,"cf1kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cf2kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cf3kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cf4kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cf5kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cm1kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cm2kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cm3kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cm4kids",36.5079,46.5649
+"eviction","Existing number of siblings",FALSE,"cm5kids",36.5079,46.5649
+"eviction","Father's age at childbirth",FALSE,"cf1age",37.2881,42.2481
+"eviction","Father's education",FALSE,"cf5edu",52,47.0383
+"eviction","Father's incarceration",FALSE,"f3i29",85.1852,79.6364
+"eviction","Father's multiple-job holding",FALSE,"f2k19a",47.7273,45.1505
+"eviction","Father's multiple-job holding",FALSE,"f3k18",47.7273,45.1505
+"eviction","Father's non-standard work hours",FALSE,"f2k18a",37.7358,56.2069
+"eviction","Father's non-standard work hours",FALSE,"f3k17a",37.7358,56.2069
+"eviction","Father's non-standard work hours",FALSE,"f4k16a",37.7358,56.2069
+"eviction","Father's non-standard work hours",FALSE,"f5i16a",37.7358,56.2069
+"eviction","Father's non-standard work hours",FALSE,"f5k17l",37.7358,56.2069
+"eviction","Father absent at time of birth",FALSE,"m1a6",68.3333,60.7914
+"eviction","Foreign-born father",FALSE,"f3h1a",21.7391,27.881
+"eviction","Foreign-born father",FALSE,"f3h1b",21.7391,27.881
+"eviction","Foreign-born mother",FALSE,"m3h1a",22.5,31.8182
+"eviction","Foreign-born mother",FALSE,"m3h1b",22.5,31.8182
+"eviction","Grandparents are present in household",TRUE,"cm3gdad",NA,26.6667
+"eviction","Grandparents are present in household",TRUE,"cm3gmom",NA,26.6667
+"eviction","Household income",FALSE,"cf1hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cf2hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cf2hhincb",83.871,67.7903
+"eviction","Household income",FALSE,"cf3hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cf3hhincb",83.871,67.7903
+"eviction","Household income",FALSE,"cf4hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cf4hhincb",83.871,67.7903
+"eviction","Household income",FALSE,"cf5hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cf5hhincb",83.871,67.7903
+"eviction","Household income",FALSE,"cm1hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cm2hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cm3hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cm4hhinc",83.871,67.7903
+"eviction","Household income",FALSE,"cm5hhinc",83.871,67.7903
+"eviction","Household size",FALSE,"cf1adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cf1kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cf2adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cf2kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cf3adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cf3kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cf4adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cf4kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cf5adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cf5kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cm1adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cm1kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cm2adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cm2kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cm3adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cm3kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cm4adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cm4kids",37.2549,48.6755
+"eviction","Household size",FALSE,"cm5adult",37.2549,48.6755
+"eviction","Household size",FALSE,"cm5kids",37.2549,48.6755
+"eviction","Income to poverty ratio",FALSE,"cf1inpov",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf2povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf2povcob",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf3povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf3povcob",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf4povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf4povcob",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf5povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cf5povcob",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cm1inpov",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cm2povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cm3povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cm4povco",90.1961,71.2281
+"eviction","Income to poverty ratio",FALSE,"cm5povco",90.1961,71.2281
+"eviction","Mother's age at childbirth",FALSE,"cm1age",63.1579,51.25
+"eviction","Mother's age at childbirth",FALSE,"cm2fbir",63.1579,51.25
+"eviction","Mother's education",FALSE,"cm5edu",55.814,39.7306
+"eviction","Mother's incarceration",FALSE,"m3i29",76.7857,78.022
+"eviction","Mother's multiple-job holding",FALSE,"m2k14a",52.6316,50.3571
+"eviction","Mother's multiple-job holding",FALSE,"m3k17",52.6316,50.3571
+"eviction","Mother's multiple-job holding",FALSE,"m3k18",52.6316,50.3571
+"eviction","Mother's non-standard work hours",FALSE,"m2k13a",68.2927,51.145
+"eviction","Mother's non-standard work hours",FALSE,"m3k16a",68.2927,51.145
+"eviction","Mother's non-standard work hours",FALSE,"m4k16a",68.2927,51.145
+"eviction","Mother's non-standard work hours",FALSE,"m5i16a",68.2927,51.145
+"eviction","Mother's non-standard work hours",FALSE,"m5k17l",68.2927,51.145
+"eviction","Mother's prenatal smoking",FALSE,"m1g4",30.5085,47.651
+"eviction","Mother has chronic illness",TRUE,"m5g2a_107",NA,62.5
+"eviction","Never-married mother",FALSE,"cm5relf",55.2239,47.2973
+"eviction","Number of parental romantic relationships",FALSE,"f3a13",40.7407,50.8834
+"eviction","Number of parental romantic relationships",FALSE,"f5a10",40.7407,50.8834
+"eviction","Number of parental romantic relationships",FALSE,"f5a101",40.7407,50.8834
+"eviction","Number of parental romantic relationships",FALSE,"m3a13",40.7407,50.8834
+"eviction","Number of parental romantic relationships",FALSE,"m5a10",40.7407,50.8834
+"eviction","Number of parental romantic relationships",FALSE,"m5a101",40.7407,50.8834
+"eviction","Number of times father has missed work",TRUE,"f2b30a",NA,58.0357
+"eviction","Number of times father has missed work",TRUE,"f3b22",NA,58.0357
+"eviction","Parents' substance abuse",TRUE,"cf3alc_case",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"cf3drug_case",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"cm3alc_case",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"cm3drug_case",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"f4j21",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"f5g20",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"m4j21",NA,75.7353
+"eviction","Parents' substance abuse",TRUE,"m5g20",NA,75.7353
+"eviction","Parents are in cohabiting partnership",FALSE,"cf2cohm",30.9524,35.2349
+"eviction","School quality",FALSE,"f5k5d",22.807,46.6667
+"eviction","School quality",FALSE,"f5k5e",22.807,46.6667
+"eviction","School quality",FALSE,"m4i0",22.807,46.6667
+"eviction","School quality",FALSE,"m4i0b",22.807,46.6667
+"eviction","School quality",FALSE,"p5l13f",22.807,46.6667
+"eviction","School quality",FALSE,"p5l1a",22.807,46.6667
+"eviction","School quality",FALSE,"t5c7f",22.807,46.6667
+"eviction","School quality",FALSE,"t5g4_104",22.807,46.6667
+"gpa","Amount of parental involvement in school",TRUE,"f4i0d",NA,66.1538
+"gpa","Amount of parental involvement in school",TRUE,"m4i0",NA,66.1538
+"gpa","Amount of parental involvement in school",TRUE,"m4i0d",NA,66.1538
+"gpa","Availability of extended family",TRUE,"cf1gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf1gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf2gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf2gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf3gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf3gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf4gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf4gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf5gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cf5gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm1gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm1gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm2gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm2gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm3gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm3gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm4gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm4gmom",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm5gdad",NA,61.3636
+"gpa","Availability of extended family",TRUE,"cm5gmom",NA,61.3636
+"gpa","Child's birth weight",FALSE,"cm1lbw",48.1481,30.4762
+"gpa","Child's gender",FALSE,"cm1bsex",20.6897,33.5593
+"gpa","Child's gender",FALSE,"hv4sex_child",20.6897,33.5593
+"gpa","Child's IQ",TRUE,"hv5_ppvtpr",NA,69.7674
+"gpa","Child's perseverance",TRUE,"k5g1a",NA,67.7419
+"gpa","Child's perseverance",TRUE,"k5g1b",NA,67.7419
+"gpa","Child's perseverance",TRUE,"k5g1d",NA,67.7419
+"gpa","Child's perseverance",TRUE,"k5g1e",NA,67.7419
+"gpa","Child's race",FALSE,"f1h3",40,36.2117
+"gpa","Child's race",FALSE,"m1h3",40,36.2117
+"gpa","Divorce or separation",FALSE,"m2a8c",64.7059,57.6687
+"gpa","English language proficiency",TRUE,NA,66.6667,NA
+"gpa","Existing number of siblings",FALSE,"cf1kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cf2kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cf3kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cf4kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cf5kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cm1kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cm2kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cm3kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cm4kids",39.2857,44.2455
+"gpa","Existing number of siblings",FALSE,"cm5kids",39.2857,44.2455
+"gpa","Family on welfare",TRUE,"f1k2a",NA,51.4286
+"gpa","Family on welfare",TRUE,"f2h8c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"f3i8c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"f4i8c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"f5f8c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m1j2b",NA,51.4286
+"gpa","Family on welfare",TRUE,"m2h9b1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m2h9c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m3i8b1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m3i8c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m4i8b1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m4i8c1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m5f8b1",NA,51.4286
+"gpa","Family on welfare",TRUE,"m5f8c1",NA,51.4286
+"gpa","Father's age at childbirth",FALSE,"cf1age",38.7097,30.6748
+"gpa","Father's education",FALSE,"cf5edu",56.25,59.9388
+"gpa","Father's incarceration",FALSE,"f3i29",71.4286,60.423
+"gpa","Father's multiple-job holding",FALSE,"f2k19a",28,42.2857
+"gpa","Father's multiple-job holding",FALSE,"f3k18",28,42.2857
+"gpa","Father's non-standard work hours",FALSE,"f2k18a",29.6296,48.2249
+"gpa","Father's non-standard work hours",FALSE,"f3k17a",29.6296,48.2249
+"gpa","Father's non-standard work hours",FALSE,"f4k16a",29.6296,48.2249
+"gpa","Father's non-standard work hours",FALSE,"f5i16a",29.6296,48.2249
+"gpa","Father's non-standard work hours",FALSE,"f5k17l",29.6296,48.2249
+"gpa","Father's substance abuse",TRUE,"cf3alc_case",NA,55.5556
+"gpa","Father's substance abuse",TRUE,"cf3drug_case",NA,55.5556
+"gpa","Father absent at time of birth",FALSE,"m1a6",58.8235,42.3529
+"gpa","Foreign-born father",FALSE,"f3h1a",30.7692,33.0484
+"gpa","Foreign-born father",FALSE,"f3h1b",30.7692,33.0484
+"gpa","Foreign-born mother",FALSE,"m3h1a",39.2857,38.2445
+"gpa","Foreign-born mother",FALSE,"m3h1b",39.2857,38.2445
+"gpa","Homeschooling",TRUE,"p5l1a",NA,45
+"gpa","Household income",FALSE,"cf1hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cf2hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cf2hhincb",74.359,56.5476
+"gpa","Household income",FALSE,"cf3hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cf3hhincb",74.359,56.5476
+"gpa","Household income",FALSE,"cf4hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cf4hhincb",74.359,56.5476
+"gpa","Household income",FALSE,"cf5hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cf5hhincb",74.359,56.5476
+"gpa","Household income",FALSE,"cm1hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cm2hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cm3hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cm4hhinc",74.359,56.5476
+"gpa","Household income",FALSE,"cm5hhinc",74.359,56.5476
+"gpa","Household size",FALSE,"cf1adult",44,46.7647
+"gpa","Household size",FALSE,"cf1kids",44,46.7647
+"gpa","Household size",FALSE,"cf2adult",44,46.7647
+"gpa","Household size",FALSE,"cf2kids",44,46.7647
+"gpa","Household size",FALSE,"cf3adult",44,46.7647
+"gpa","Household size",FALSE,"cf3kids",44,46.7647
+"gpa","Household size",FALSE,"cf4adult",44,46.7647
+"gpa","Household size",FALSE,"cf4kids",44,46.7647
+"gpa","Household size",FALSE,"cf5adult",44,46.7647
+"gpa","Household size",FALSE,"cf5kids",44,46.7647
+"gpa","Household size",FALSE,"cm1adult",44,46.7647
+"gpa","Household size",FALSE,"cm1kids",44,46.7647
+"gpa","Household size",FALSE,"cm2adult",44,46.7647
+"gpa","Household size",FALSE,"cm2kids",44,46.7647
+"gpa","Household size",FALSE,"cm3adult",44,46.7647
+"gpa","Household size",FALSE,"cm3kids",44,46.7647
+"gpa","Household size",FALSE,"cm4adult",44,46.7647
+"gpa","Household size",FALSE,"cm4kids",44,46.7647
+"gpa","Household size",FALSE,"cm5adult",44,46.7647
+"gpa","Household size",FALSE,"cm5kids",44,46.7647
+"gpa","Income to poverty ratio",FALSE,"cf1inpov",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf2povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf2povcob",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf3povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf3povcob",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf4povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf4povcob",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf5povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cf5povcob",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cm1inpov",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cm2povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cm3povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cm4povco",80.7692,70.1705
+"gpa","Income to poverty ratio",FALSE,"cm5povco",80.7692,70.1705
+"gpa","Language spoken at home",TRUE,NA,40,NA
+"gpa","Mother's age at childbirth",FALSE,"cm1age",72.4138,41.5473
+"gpa","Mother's age at childbirth",FALSE,"cm2fbir",72.4138,41.5473
+"gpa","Mother's education",FALSE,"cm5edu",82.1429,63.5514
+"gpa","Mother's employment",TRUE,"m2k12",NA,42.8571
+"gpa","Mother's employment",TRUE,"m2k8",NA,42.8571
+"gpa","Mother's employment",TRUE,"m3k15",NA,42.8571
+"gpa","Mother's employment",TRUE,"m4k15",NA,42.8571
+"gpa","Mother's incarceration",FALSE,"m3i29",85,61.5142
+"gpa","Mother's multiple-job holding",FALSE,"m2k14a",19.3548,50.9537
+"gpa","Mother's multiple-job holding",FALSE,"m3k17",19.3548,50.9537
+"gpa","Mother's multiple-job holding",FALSE,"m3k18",19.3548,50.9537
+"gpa","Mother's non-standard work hours",FALSE,"m2k13a",42.1053,49.5822
+"gpa","Mother's non-standard work hours",FALSE,"m3k16a",42.1053,49.5822
+"gpa","Mother's non-standard work hours",FALSE,"m4k16a",42.1053,49.5822
+"gpa","Mother's non-standard work hours",FALSE,"m5i16a",42.1053,49.5822
+"gpa","Mother's non-standard work hours",FALSE,"m5k17l",42.1053,49.5822
+"gpa","Mother's prenatal smoking",FALSE,"m1g4",62.963,43.5331
+"gpa","Mother's substance abuse",TRUE,"cm3alc_case",NA,76
+"gpa","Mother's substance abuse",TRUE,"cm3drug_case",NA,76
+"gpa","Neighborhood crime",TRUE,"t5f4a",60,NA
+"gpa","Never-married mother",FALSE,"cm5relf",55.5556,37.2168
+"gpa","Number of books at home",TRUE,"f4b27",NA,75.6757
+"gpa","Number of books at home",TRUE,"f5k14e",NA,75.6757
+"gpa","Number of books at home",TRUE,"m4b27",NA,75.6757
+"gpa","Number of books at home",TRUE,"m5k14e",NA,75.6757
+"gpa","Number of parental romantic relationships",FALSE,"f3a13",40.9091,42.1622
+"gpa","Number of parental romantic relationships",FALSE,"f5a10",40.9091,42.1622
+"gpa","Number of parental romantic relationships",FALSE,"f5a101",40.9091,42.1622
+"gpa","Number of parental romantic relationships",FALSE,"m3a13",40.9091,42.1622
+"gpa","Number of parental romantic relationships",FALSE,"m5a10",40.9091,42.1622
+"gpa","Number of parental romantic relationships",FALSE,"m5a101",40.9091,42.1622
+"gpa","Parent's religion",TRUE,"f3r1",NA,40
+"gpa","Parent's religion",TRUE,"m3r1",NA,40
+"gpa","Parent impulsivity",TRUE,"p5q3an",33.3333,NA
+"gpa","Parents are in cohabiting partnership",FALSE,"cf2cohm",4.16667,47.4934
+"gpa","Private school",TRUE,"p5l1a",NA,62.8289
+"gpa","Private school",TRUE,"p5l23",NA,62.8289
+"gpa","School quality",FALSE,"f5k5d",62.5,66.6667
+"gpa","School quality",FALSE,"f5k5e",62.5,66.6667
+"gpa","School quality",FALSE,"m4i0",62.5,66.6667
+"gpa","School quality",FALSE,"m4i0b",62.5,66.6667
+"gpa","School quality",FALSE,"p5l13f",62.5,66.6667
+"gpa","School quality",FALSE,"p5l1a",62.5,66.6667
+"gpa","School quality",FALSE,"t5c7f",62.5,66.6667
+"gpa","School quality",FALSE,"t5g4_104",62.5,66.6667
+"gpa","Teacher quality",FALSE,"t5g7",56.5217,70.9581
+"grit","Child's birth weight",FALSE,"cm1lbw",65.2174,30.8725
+"grit","Child's gender",FALSE,"cm1bsex",55.5556,39.2361
+"grit","Child's gender",FALSE,"hv4sex_child",55.5556,39.2361
+"grit","Child's participation in chores",TRUE,"f3b32d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"f3b4d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"f3c3d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"f3e18d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"f5k14a",NA,62.7451
+"grit","Child's participation in chores",TRUE,"m3b32d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"m3b4d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"m3c3d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"m3e18d",NA,62.7451
+"grit","Child's participation in chores",TRUE,"m5k14a",NA,62.7451
+"grit","Child's participation in chores",TRUE,"p5i1a",NA,62.7451
+"grit","Child's participation in chores",TRUE,"p5i31a",NA,62.7451
+"grit","Child's participation in chores",TRUE,"p5i40a",NA,62.7451
+"grit","Child's participation in sports",TRUE,"m5k14b",NA,68.2927
+"grit","Child's participation in sports",TRUE,"p5i1b",NA,68.2927
+"grit","Child's race",FALSE,"f1h3",41.6667,42.4138
+"grit","Child's race",FALSE,"m1h3",41.6667,42.4138
+"grit","Child makes friends easily",TRUE,"t5b1h",NA,53.5714
+"grit","Divorce or separation",FALSE,"m2a8c",18.5185,63.5739
+"grit","Early childhood health",TRUE,"f5a3a1_10",NA,52.1127
+"grit","Early childhood health",TRUE,"f5a3i_10",NA,52.1127
+"grit","Early childhood health",TRUE,"f5a6g01_10",NA,52.1127
+"grit","Early childhood health",TRUE,"f5a6g02_10",NA,52.1127
+"grit","Early childhood health",TRUE,"f5a6g03_10",NA,52.1127
+"grit","Early childhood health",TRUE,"m5a3a1_10",NA,52.1127
+"grit","Early childhood health",TRUE,"m5a3i_10",NA,52.1127
+"grit","Early childhood health",TRUE,"m5a6g01_10",NA,52.1127
+"grit","Early childhood health",TRUE,"m5a6g02_10",NA,52.1127
+"grit","Early childhood health",TRUE,"m5a6g03_10",NA,52.1127
+"grit","Existing number of siblings",FALSE,"cf1kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cf2kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cf3kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cf4kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cf5kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cm1kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cm2kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cm3kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cm4kids",43.4783,54.9689
+"grit","Existing number of siblings",FALSE,"cm5kids",43.4783,54.9689
+"grit","Families on block known well",TRUE,"f4i0l",NA,35.7143
+"grit","Families on block known well",TRUE,"m4i0",NA,35.7143
+"grit","Families on block known well",TRUE,"m4i0l",NA,35.7143
+"grit","Families on block known well",TRUE,"m4i0n2",NA,35.7143
+"grit","Families on block known well",TRUE,"m4i0n3",NA,35.7143
+"grit","Families on block known well",TRUE,"p5m1",NA,35.7143
+"grit","Father's age at childbirth",FALSE,"cf1age",15.7895,38.0282
+"grit","Father's education",FALSE,"cf5edu",27.2727,41.0448
+"grit","Father's incarceration",FALSE,"f3i29",35.2941,56.3934
+"grit","Father's multiple-job holding",FALSE,"f2k19a",40,53.1561
+"grit","Father's multiple-job holding",FALSE,"f3k18",40,53.1561
+"grit","Father's non-standard work hours",FALSE,"f2k18a",15.7895,47.1154
+"grit","Father's non-standard work hours",FALSE,"f3k17a",15.7895,47.1154
+"grit","Father's non-standard work hours",FALSE,"f4k16a",15.7895,47.1154
+"grit","Father's non-standard work hours",FALSE,"f5i16a",15.7895,47.1154
+"grit","Father's non-standard work hours",FALSE,"f5k17l",15.7895,47.1154
+"grit","Father's unemployment",TRUE,"m2c33",NA,55.6962
+"grit","Father's unemployment",TRUE,"m3c41",NA,55.6962
+"grit","Father absent at time of birth",FALSE,"m1a6",42.3077,50.6993
+"grit","Foreign-born father",FALSE,"f3h1a",40.9091,35.1171
+"grit","Foreign-born father",FALSE,"f3h1b",40.9091,35.1171
+"grit","Foreign-born mother",FALSE,"m3h1a",36.8421,41.5842
+"grit","Foreign-born mother",FALSE,"m3h1b",36.8421,41.5842
+"grit","Household income",FALSE,"cf1hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cf2hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cf2hhincb",86.9565,55.9727
+"grit","Household income",FALSE,"cf3hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cf3hhincb",86.9565,55.9727
+"grit","Household income",FALSE,"cf4hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cf4hhincb",86.9565,55.9727
+"grit","Household income",FALSE,"cf5hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cf5hhincb",86.9565,55.9727
+"grit","Household income",FALSE,"cm1hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cm2hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cm3hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cm4hhinc",86.9565,55.9727
+"grit","Household income",FALSE,"cm5hhinc",86.9565,55.9727
+"grit","Household size",FALSE,"cf1adult",60.7143,50.1767
+"grit","Household size",FALSE,"cf1kids",60.7143,50.1767
+"grit","Household size",FALSE,"cf2adult",60.7143,50.1767
+"grit","Household size",FALSE,"cf2kids",60.7143,50.1767
+"grit","Household size",FALSE,"cf3adult",60.7143,50.1767
+"grit","Household size",FALSE,"cf3kids",60.7143,50.1767
+"grit","Household size",FALSE,"cf4adult",60.7143,50.1767
+"grit","Household size",FALSE,"cf4kids",60.7143,50.1767
+"grit","Household size",FALSE,"cf5adult",60.7143,50.1767
+"grit","Household size",FALSE,"cf5kids",60.7143,50.1767
+"grit","Household size",FALSE,"cm1adult",60.7143,50.1767
+"grit","Household size",FALSE,"cm1kids",60.7143,50.1767
+"grit","Household size",FALSE,"cm2adult",60.7143,50.1767
+"grit","Household size",FALSE,"cm2kids",60.7143,50.1767
+"grit","Household size",FALSE,"cm3adult",60.7143,50.1767
+"grit","Household size",FALSE,"cm3kids",60.7143,50.1767
+"grit","Household size",FALSE,"cm4adult",60.7143,50.1767
+"grit","Household size",FALSE,"cm4kids",60.7143,50.1767
+"grit","Household size",FALSE,"cm5adult",60.7143,50.1767
+"grit","Household size",FALSE,"cm5kids",60.7143,50.1767
+"grit","Income to poverty ratio",FALSE,"cf1inpov",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf2povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf2povcob",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf3povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf3povcob",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf4povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf4povcob",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf5povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cf5povcob",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cm1inpov",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cm2povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cm3povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cm4povco",85,69.5783
+"grit","Income to poverty ratio",FALSE,"cm5povco",85,69.5783
+"grit","Mother's age at childbirth",FALSE,"cm1age",42.3077,43.2343
+"grit","Mother's age at childbirth",FALSE,"cm2fbir",42.3077,43.2343
+"grit","Mother's education",FALSE,"cm5edu",75,44.0972
+"grit","Mother's incarceration",FALSE,"m3i29",76,64.0288
+"grit","Mother's mental health",TRUE,"f4c38",NA,69.4444
+"grit","Mother's mental health",TRUE,"f5b31x",NA,69.4444
+"grit","Mother's multiple-job holding",FALSE,"m2k14a",43.4783,62.2951
+"grit","Mother's multiple-job holding",FALSE,"m3k17",43.4783,62.2951
+"grit","Mother's multiple-job holding",FALSE,"m3k18",43.4783,62.2951
+"grit","Mother's non-standard work hours",FALSE,"m2k13a",38.0952,55.2381
+"grit","Mother's non-standard work hours",FALSE,"m3k16a",38.0952,55.2381
+"grit","Mother's non-standard work hours",FALSE,"m4k16a",38.0952,55.2381
+"grit","Mother's non-standard work hours",FALSE,"m5i16a",38.0952,55.2381
+"grit","Mother's non-standard work hours",FALSE,"m5k17l",38.0952,55.2381
+"grit","Mother's prenatal smoking",FALSE,"m1g4",61.9048,34.4086
+"grit","Never-married mother",FALSE,"cm5relf",52,48.2877
+"grit","Number of child's emergency room visits",TRUE,"f2b8",NA,28.5714
+"grit","Number of child's emergency room visits",TRUE,"hv3a9",NA,28.5714
+"grit","Number of child's emergency room visits",TRUE,"hv4a14",NA,28.5714
+"grit","Number of child's emergency room visits",TRUE,"m2b8",NA,28.5714
+"grit","Number of child's emergency room visits",TRUE,"p5h10",NA,28.5714
+"grit","Number of parental romantic relationships",FALSE,"f3a13",73.913,41.0526
+"grit","Number of parental romantic relationships",FALSE,"f5a10",73.913,41.0526
+"grit","Number of parental romantic relationships",FALSE,"f5a101",73.913,41.0526
+"grit","Number of parental romantic relationships",FALSE,"m3a13",73.913,41.0526
+"grit","Number of parental romantic relationships",FALSE,"m5a10",73.913,41.0526
+"grit","Number of parental romantic relationships",FALSE,"m5a101",73.913,41.0526
+"grit","Parents are in cohabiting partnership",FALSE,"cf2cohm",50,47.099
+"grit","School quality",FALSE,"f5k5d",54.5455,56.3798
+"grit","School quality",FALSE,"f5k5e",54.5455,56.3798
+"grit","School quality",FALSE,"m4i0",54.5455,56.3798
+"grit","School quality",FALSE,"m4i0b",54.5455,56.3798
+"grit","School quality",FALSE,"p5l13f",54.5455,56.3798
+"grit","School quality",FALSE,"p5l1a",54.5455,56.3798
+"grit","School quality",FALSE,"t5c7f",54.5455,56.3798
+"grit","School quality",FALSE,"t5g4_104",54.5455,56.3798
+"grit","Teacher quality",FALSE,"t5g7",64,46.2094
+"grit","Teacher says child works independently",TRUE,"t5b2c",NA,67.6301
+"job_training","Child's birth weight",FALSE,"cm1lbw",50,22.5309
+"job_training","Child's gender",FALSE,"cm1bsex",20,23.6066
+"job_training","Child's gender",FALSE,"hv4sex_child",20,23.6066
+"job_training","Child's race",FALSE,"f1h3",50,33.3333
+"job_training","Child's race",FALSE,"m1h3",50,33.3333
+"job_training","Divorce or separation",FALSE,"m2a8c",50,42.042
+"job_training","Existing number of siblings",FALSE,"cf1kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cf2kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cf3kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cf4kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cf5kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cm1kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cm2kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cm3kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cm4kids",50,45.2532
+"job_training","Existing number of siblings",FALSE,"cm5kids",50,45.2532
+"job_training","Father's age at childbirth",FALSE,"cf1age",50,50.4854
+"job_training","Father's education",FALSE,"cf5edu",50,75.4658
+"job_training","Father's incarceration",FALSE,"f3i29",66.6667,56.1462
+"job_training","Father's interest in sports or entertainment",TRUE,"f5k14b",NA,34.0136
+"job_training","Father's multiple-job holding",FALSE,"f2k19a",50,61.0169
+"job_training","Father's multiple-job holding",FALSE,"f3k18",50,61.0169
+"job_training","Father's non-standard work hours",FALSE,"f2k18a",75,51.2658
+"job_training","Father's non-standard work hours",FALSE,"f3k17a",75,51.2658
+"job_training","Father's non-standard work hours",FALSE,"f4k16a",75,51.2658
+"job_training","Father's non-standard work hours",FALSE,"f5i16a",75,51.2658
+"job_training","Father's non-standard work hours",FALSE,"f5k17l",75,51.2658
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17a",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17b",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17c",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17d",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17e",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17f",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17g",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f2b17h",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"f5k15",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"m2c3b",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"m2e4b",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"n5c3e",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"n5c3f",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"p5i32a",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"p5i32b",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"p5i32c",NA,53.8462
+"job_training","Father's sense of familial responsibility",TRUE,"p5i37",NA,53.8462
+"job_training","Father absent at time of birth",FALSE,"m1a6",50,49.1803
+"job_training","Foreign-born father",FALSE,"f3h1a",50,32.6861
+"job_training","Foreign-born father",FALSE,"f3h1b",50,32.6861
+"job_training","Foreign-born mother",FALSE,"m3h1a",50,30.2083
+"job_training","Foreign-born mother",FALSE,"m3h1b",50,30.2083
+"job_training","Household income",FALSE,"cf1hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cf2hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cf2hhincb",66.6667,67.6282
+"job_training","Household income",FALSE,"cf3hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cf3hhincb",66.6667,67.6282
+"job_training","Household income",FALSE,"cf4hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cf4hhincb",66.6667,67.6282
+"job_training","Household income",FALSE,"cf5hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cf5hhincb",66.6667,67.6282
+"job_training","Household income",FALSE,"cm1hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cm2hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cm3hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cm4hhinc",66.6667,67.6282
+"job_training","Household income",FALSE,"cm5hhinc",66.6667,67.6282
+"job_training","Household size",FALSE,"cf1adult",20,56.962
+"job_training","Household size",FALSE,"cf1kids",20,56.962
+"job_training","Household size",FALSE,"cf2adult",20,56.962
+"job_training","Household size",FALSE,"cf2kids",20,56.962
+"job_training","Household size",FALSE,"cf3adult",20,56.962
+"job_training","Household size",FALSE,"cf3kids",20,56.962
+"job_training","Household size",FALSE,"cf4adult",20,56.962
+"job_training","Household size",FALSE,"cf4kids",20,56.962
+"job_training","Household size",FALSE,"cf5adult",20,56.962
+"job_training","Household size",FALSE,"cf5kids",20,56.962
+"job_training","Household size",FALSE,"cm1adult",20,56.962
+"job_training","Household size",FALSE,"cm1kids",20,56.962
+"job_training","Household size",FALSE,"cm2adult",20,56.962
+"job_training","Household size",FALSE,"cm2kids",20,56.962
+"job_training","Household size",FALSE,"cm3adult",20,56.962
+"job_training","Household size",FALSE,"cm3kids",20,56.962
+"job_training","Household size",FALSE,"cm4adult",20,56.962
+"job_training","Household size",FALSE,"cm4kids",20,56.962
+"job_training","Household size",FALSE,"cm5adult",20,56.962
+"job_training","Household size",FALSE,"cm5kids",20,56.962
+"job_training","Income to poverty ratio",FALSE,"cf1inpov",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf2povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf2povcob",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf3povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf3povcob",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf4povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf4povcob",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf5povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cf5povcob",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cm1inpov",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cm2povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cm3povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cm4povco",50,61.7647
+"job_training","Income to poverty ratio",FALSE,"cm5povco",50,61.7647
+"job_training","Mother's age at childbirth",FALSE,"cm1age",66.6667,55.4487
+"job_training","Mother's age at childbirth",FALSE,"cm2fbir",66.6667,55.4487
+"job_training","Mother's education",FALSE,"cm5edu",75,78.5933
+"job_training","Mother's incarceration",FALSE,"m3i29",50,55.3398
+"job_training","Mother's multiple-job holding",FALSE,"m2k14a",50,60.0583
+"job_training","Mother's multiple-job holding",FALSE,"m3k17",50,60.0583
+"job_training","Mother's multiple-job holding",FALSE,"m3k18",50,60.0583
+"job_training","Mother's non-standard work hours",FALSE,"m2k13a",66.6667,57.947
+"job_training","Mother's non-standard work hours",FALSE,"m3k16a",66.6667,57.947
+"job_training","Mother's non-standard work hours",FALSE,"m4k16a",66.6667,57.947
+"job_training","Mother's non-standard work hours",FALSE,"m5i16a",66.6667,57.947
+"job_training","Mother's non-standard work hours",FALSE,"m5k17l",66.6667,57.947
+"job_training","Mother's prenatal smoking",FALSE,"m1g4",50,35.1724
+"job_training","Multi-generational household",TRUE,"cf4gdad",NA,53.5714
+"job_training","Multi-generational household",TRUE,"cf4gmom",NA,53.5714
+"job_training","Multi-generational household",TRUE,"cm4gdad",NA,53.5714
+"job_training","Multi-generational household",TRUE,"cm4gmom",NA,53.5714
+"job_training","Never-married mother",FALSE,"cm5relf",33.3333,38.3513
+"job_training","Number of parental romantic relationships",FALSE,"f3a13",33.3333,35.6913
+"job_training","Number of parental romantic relationships",FALSE,"f5a10",33.3333,35.6913
+"job_training","Number of parental romantic relationships",FALSE,"f5a101",33.3333,35.6913
+"job_training","Number of parental romantic relationships",FALSE,"m3a13",33.3333,35.6913
+"job_training","Number of parental romantic relationships",FALSE,"m5a10",33.3333,35.6913
+"job_training","Number of parental romantic relationships",FALSE,"m5a101",33.3333,35.6913
+"job_training","Parents are in cohabiting partnership",FALSE,"cf2cohm",50,46.2462
+"job_training","School quality",FALSE,"f5k5d",50,62.5397
+"job_training","School quality",FALSE,"f5k5e",50,62.5397
+"job_training","School quality",FALSE,"m4i0",50,62.5397
+"job_training","School quality",FALSE,"m4i0b",50,62.5397
+"job_training","School quality",FALSE,"p5l13f",50,62.5397
+"job_training","School quality",FALSE,"p5l1a",50,62.5397
+"job_training","School quality",FALSE,"t5c7f",50,62.5397
+"job_training","School quality",FALSE,"t5g4_104",50,62.5397
+"job_training","Teacher quality",FALSE,"t5g7",NA,65.4206
+"layoff","Child's birth weight",FALSE,"cm1lbw",50,22.963
+"layoff","Child's gender",FALSE,"cm1bsex",33.3333,25.1799
+"layoff","Child's gender",FALSE,"hv4sex_child",33.3333,25.1799
+"layoff","Child's health",TRUE,"f5a3a1_10",NA,36.4865
+"layoff","Child's health",TRUE,"f5a3i_10",NA,36.4865
+"layoff","Child's health",TRUE,"f5a6g01_10",NA,36.4865
+"layoff","Child's health",TRUE,"f5a6g02_10",NA,36.4865
+"layoff","Child's health",TRUE,"f5a6g03_10",NA,36.4865
+"layoff","Child's health",TRUE,"m5a3a1_10",NA,36.4865
+"layoff","Child's health",TRUE,"m5a3i_10",NA,36.4865
+"layoff","Child's health",TRUE,"m5a6g01_10",NA,36.4865
+"layoff","Child's health",TRUE,"m5a6g02_10",NA,36.4865
+"layoff","Child's health",TRUE,"m5a6g03_10",NA,36.4865
+"layoff","Child's race",FALSE,"f1h3",66.6667,24.9071
+"layoff","Child's race",FALSE,"m1h3",66.6667,24.9071
+"layoff","Divorce or separation",FALSE,"m2a8c",20,55.8621
+"layoff","Existing number of siblings",FALSE,"cf1kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cf2kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cf3kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cf4kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cf5kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cm1kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cm2kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cm3kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cm4kids",50,37.6426
+"layoff","Existing number of siblings",FALSE,"cm5kids",50,37.6426
+"layoff","Father's age at childbirth",FALSE,"cf1age",50,34.1463
+"layoff","Father's education",FALSE,"cf5edu",66.6667,57.1906
+"layoff","Father's incarceration",FALSE,"f3i29",50,79.1519
+"layoff","Father's multiple-job holding",FALSE,"f2k19a",50,61.2245
+"layoff","Father's multiple-job holding",FALSE,"f3k18",50,61.2245
+"layoff","Father's non-standard work hours",FALSE,"f2k18a",25,64.4231
+"layoff","Father's non-standard work hours",FALSE,"f3k17a",25,64.4231
+"layoff","Father's non-standard work hours",FALSE,"f4k16a",25,64.4231
+"layoff","Father's non-standard work hours",FALSE,"f5i16a",25,64.4231
+"layoff","Father's non-standard work hours",FALSE,"f5k17l",25,64.4231
+"layoff","Father absent at time of birth",FALSE,"m1a6",50,56.3636
+"layoff","Foreign-born father",FALSE,"f3h1a",50,45.8064
+"layoff","Foreign-born father",FALSE,"f3h1b",50,45.8064
+"layoff","Foreign-born mother",FALSE,"m3h1a",33.3333,40.7143
+"layoff","Foreign-born mother",FALSE,"m3h1b",33.3333,40.7143
+"layoff","Household income",FALSE,"cf1hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cf2hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cf2hhincb",85.7143,59.8592
+"layoff","Household income",FALSE,"cf3hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cf3hhincb",85.7143,59.8592
+"layoff","Household income",FALSE,"cf4hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cf4hhincb",85.7143,59.8592
+"layoff","Household income",FALSE,"cf5hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cf5hhincb",85.7143,59.8592
+"layoff","Household income",FALSE,"cm1hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cm2hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cm3hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cm4hhinc",85.7143,59.8592
+"layoff","Household income",FALSE,"cm5hhinc",85.7143,59.8592
+"layoff","Household size",FALSE,"cf1adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cf1kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cf2adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cf2kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cf3adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cf3kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cf4adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cf4kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cf5adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cf5kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cm1adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cm1kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cm2adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cm2kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cm3adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cm3kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cm4adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cm4kids",33.3333,46.1059
+"layoff","Household size",FALSE,"cm5adult",33.3333,46.1059
+"layoff","Household size",FALSE,"cm5kids",33.3333,46.1059
+"layoff","Income to poverty ratio",FALSE,"cf1inpov",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf2povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf2povcob",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf3povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf3povcob",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf4povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf4povcob",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf5povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cf5povcob",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cm1inpov",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cm2povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cm3povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cm4povco",80,62.5926
+"layoff","Income to poverty ratio",FALSE,"cm5povco",80,62.5926
+"layoff","Mother's age at childbirth",FALSE,"cm1age",57.1429,39.8026
+"layoff","Mother's age at childbirth",FALSE,"cm2fbir",57.1429,39.8026
+"layoff","Mother's education",FALSE,"cm5edu",75,58.885
+"layoff","Mother's incarceration",FALSE,"m3i29",75,70.3072
+"layoff","Mother's multiple-job holding",FALSE,"m2k14a",25,63.8298
+"layoff","Mother's multiple-job holding",FALSE,"m3k17",25,63.8298
+"layoff","Mother's multiple-job holding",FALSE,"m3k18",25,63.8298
+"layoff","Mother's non-standard work hours",FALSE,"m2k13a",50,58.6081
+"layoff","Mother's non-standard work hours",FALSE,"m3k16a",50,58.6081
+"layoff","Mother's non-standard work hours",FALSE,"m4k16a",50,58.6081
+"layoff","Mother's non-standard work hours",FALSE,"m5i16a",50,58.6081
+"layoff","Mother's non-standard work hours",FALSE,"m5k17l",50,58.6081
+"layoff","Mother's prenatal smoking",FALSE,"m1g4",40,44.6215
+"layoff","Never-married mother",FALSE,"cm5relf",66.6667,35.082
+"layoff","Number of parental romantic relationships",FALSE,"f3a13",33.3333,42.3868
+"layoff","Number of parental romantic relationships",FALSE,"f5a10",33.3333,42.3868
+"layoff","Number of parental romantic relationships",FALSE,"f5a101",33.3333,42.3868
+"layoff","Number of parental romantic relationships",FALSE,"m3a13",33.3333,42.3868
+"layoff","Number of parental romantic relationships",FALSE,"m5a10",33.3333,42.3868
+"layoff","Number of parental romantic relationships",FALSE,"m5a101",33.3333,42.3868
+"layoff","Parent's chronic illness",TRUE,"f5a3a1_9",NA,74.2616
+"layoff","Parent's chronic illness",TRUE,"m5g2a_107",NA,74.2616
+"layoff","Parent's race",TRUE,NA,50,NA
+"layoff","Parents are in cohabiting partnership",FALSE,"cf2cohm",33.3333,42.5087
+"layoff","School quality",FALSE,"f5k5d",50,48.5401
+"layoff","School quality",FALSE,"f5k5e",50,48.5401
+"layoff","School quality",FALSE,"m4i0",50,48.5401
+"layoff","School quality",FALSE,"m4i0b",50,48.5401
+"layoff","School quality",FALSE,"p5l13f",50,48.5401
+"layoff","School quality",FALSE,"p5l1a",50,48.5401
+"layoff","School quality",FALSE,"t5c7f",50,48.5401
+"layoff","School quality",FALSE,"t5g4_104",50,48.5401
+"material_hardship","Child's birth weight",FALSE,"cm1lbw",25,29.9539
+"material_hardship","Child's gender",FALSE,"cm1bsex",6.12245,30.5288
+"material_hardship","Child's gender",FALSE,"hv4sex_child",6.12245,30.5288
+"material_hardship","Child's race",FALSE,"f1h3",57.6271,42.029
+"material_hardship","Child's race",FALSE,"m1h3",57.6271,42.029
+"material_hardship","Childcare center enrollment",TRUE,"m4b13",12.5,NA
+"material_hardship","Divorce or separation",FALSE,"m2a8c",72.4138,60.7539
+"material_hardship","Domestic abuse in family",TRUE,"f3a8b_7",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d7m",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d7n",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d7n1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d7o",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9h",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9i",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9m",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9n",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9n1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9o",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f3d9p",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f4a8b_7",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f5b26x_10",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f5f26b2_10",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"f5f28a_10",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3a8b_7",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d7m",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d7n",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d7n1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d7o",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d7p",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d7p1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9i",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9m",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9n",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9n1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9o",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9p",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3d9p1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3e23o",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3e23p",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3e23p1",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m3e23q",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m4a8b_7",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m5b30a1_10",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m5f26b2_10",41.6667,NA
+"material_hardship","Domestic abuse in family",TRUE,"m5f28a_10",41.6667,NA
+"material_hardship","Existing number of siblings",FALSE,"cf1kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cf2kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cf3kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cf4kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cf5kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cm1kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cm2kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cm3kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cm4kids",37.2881,48.4561
+"material_hardship","Existing number of siblings",FALSE,"cm5kids",37.2881,48.4561
+"material_hardship","Father's age at childbirth",FALSE,"cf1age",28.2609,43.3071
+"material_hardship","Father's education",FALSE,"cf5edu",61.0169,56.6745
+"material_hardship","Father's incarceration",FALSE,"f3i29",94,77.0171
+"material_hardship","Father's multiple-job holding",FALSE,"f2k19a",40,51.5707
+"material_hardship","Father's multiple-job holding",FALSE,"f3k18",40,51.5707
+"material_hardship","Father's non-standard work hours",FALSE,"f2k18a",50.7692,47.3945
+"material_hardship","Father's non-standard work hours",FALSE,"f3k17a",50.7692,47.3945
+"material_hardship","Father's non-standard work hours",FALSE,"f4k16a",50.7692,47.3945
+"material_hardship","Father's non-standard work hours",FALSE,"f5i16a",50.7692,47.3945
+"material_hardship","Father's non-standard work hours",FALSE,"f5k17l",50.7692,47.3945
+"material_hardship","Father absent at time of birth",FALSE,"m1a6",66,53.2982
+"material_hardship","Foreign-born father",FALSE,"f3h1a",13.1148,38.2278
+"material_hardship","Foreign-born father",FALSE,"f3h1b",13.1148,38.2278
+"material_hardship","Foreign-born mother",FALSE,"m3h1a",17.3077,37.3434
+"material_hardship","Foreign-born mother",FALSE,"m3h1b",17.3077,37.3434
+"material_hardship","Grandparents in the household",TRUE,"cm3gdad",26.3158,NA
+"material_hardship","Grandparents in the household",TRUE,"cm3gmom",26.3158,NA
+"material_hardship","Household income",FALSE,"cf1hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf2hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf2hhincb",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf3hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf3hhincb",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf4hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf4hhincb",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf5hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cf5hhincb",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cm1hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cm2hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cm3hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cm4hhinc",84.7458,66.8407
+"material_hardship","Household income",FALSE,"cm5hhinc",84.7458,66.8407
+"material_hardship","Household size",FALSE,"cf1adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf1kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf2adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf2kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf3adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf3kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf4adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf4kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf5adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cf5kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm1adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm1kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm2adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm2kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm3adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm3kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm4adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm4kids",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm5adult",36.8421,53.23
+"material_hardship","Household size",FALSE,"cm5kids",36.8421,53.23
+"material_hardship","Income to poverty ratio",FALSE,"cf1inpov",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf2povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf2povcob",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf3povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf3povcob",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf4povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf4povcob",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf5povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cf5povcob",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cm1inpov",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cm2povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cm3povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cm4povco",85.2941,71.9626
+"material_hardship","Income to poverty ratio",FALSE,"cm5povco",85.2941,71.9626
+"material_hardship","Mother's age at childbirth",FALSE,"cm1age",52.9412,51.7677
+"material_hardship","Mother's age at childbirth",FALSE,"cm2fbir",52.9412,51.7677
+"material_hardship","Mother's education",FALSE,"cm5edu",66.1972,55.6054
+"material_hardship","Mother's incarceration",FALSE,"m3i29",86.4407,75.853
+"material_hardship","Mother's multiple-job holding",FALSE,"m2k14a",39.6552,54.0342
+"material_hardship","Mother's multiple-job holding",FALSE,"m3k17",39.6552,54.0342
+"material_hardship","Mother's multiple-job holding",FALSE,"m3k18",39.6552,54.0342
+"material_hardship","Mother's non-standard work hours",FALSE,"m2k13a",62.2642,46.7822
+"material_hardship","Mother's non-standard work hours",FALSE,"m3k16a",62.2642,46.7822
+"material_hardship","Mother's non-standard work hours",FALSE,"m4k16a",62.2642,46.7822
+"material_hardship","Mother's non-standard work hours",FALSE,"m5i16a",62.2642,46.7822
+"material_hardship","Mother's non-standard work hours",FALSE,"m5k17l",62.2642,46.7822
+"material_hardship","Mother's prenatal smoking",FALSE,"m1g4",42.1053,40.1786
+"material_hardship","Never-married mother",FALSE,"cm5relf",60.3448,46.2963
+"material_hardship","Number of books in the home",TRUE,"f4b27",NA,39.7727
+"material_hardship","Number of books in the home",TRUE,"f5k14e",NA,39.7727
+"material_hardship","Number of books in the home",TRUE,"m4b27",NA,39.7727
+"material_hardship","Number of books in the home",TRUE,"m5k14e",NA,39.7727
+"material_hardship","Number of parental romantic relationships",FALSE,"f3a13",37.2549,43.5115
+"material_hardship","Number of parental romantic relationships",FALSE,"f5a10",37.2549,43.5115
+"material_hardship","Number of parental romantic relationships",FALSE,"f5a101",37.2549,43.5115
+"material_hardship","Number of parental romantic relationships",FALSE,"m3a13",37.2549,43.5115
+"material_hardship","Number of parental romantic relationships",FALSE,"m5a10",37.2549,43.5115
+"material_hardship","Number of parental romantic relationships",FALSE,"m5a101",37.2549,43.5115
+"material_hardship","Parent's mental health",TRUE,"m5g2a_101",66.6667,NA
+"material_hardship","Parents are in cohabiting partnership",FALSE,"cf2cohm",36,33.6538
+"material_hardship","Parents have savings account",TRUE,"m5j6h",NA,36.4286
+"material_hardship","School quality",FALSE,"f5k5d",34.0909,56.4039
+"material_hardship","School quality",FALSE,"f5k5e",34.0909,56.4039
+"material_hardship","School quality",FALSE,"m4i0",34.0909,56.4039
+"material_hardship","School quality",FALSE,"m4i0b",34.0909,56.4039
+"material_hardship","School quality",FALSE,"p5l13f",34.0909,56.4039
+"material_hardship","School quality",FALSE,"p5l1a",34.0909,56.4039
+"material_hardship","School quality",FALSE,"t5c7f",34.0909,56.4039
+"material_hardship","School quality",FALSE,"t5g4_104",34.0909,56.4039
