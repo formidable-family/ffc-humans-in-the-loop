@@ -1,6 +1,6 @@
 library(FFCRegressionImputation)
 
-source("init.R")
+source("code/data_processing/init.R")
 
 background <- initImputation(data = "data/background.csv", 
                              dropna = 1, 
@@ -12,9 +12,9 @@ background <-
   subset_vars_remove(get_vars_na) %>%
   subset_vars_remove(get_vars_unique) 
 
-ffvars <- read_lines("output/ffvars.txt")
-categorical <- read_lines("output/categorical.txt")
-continuous <- read_lines("output/continuous.txt")
+ffvars <- read_lines("data/variables/ffvars.txt")
+categorical <- read_lines("data/variables/categorical.txt")
+continuous <- read_lines("data/variables/continuous.txt")
 
 categorical <- categorical[categorical %in% names(background)]
 
@@ -32,10 +32,12 @@ background_constructed <-
   background %>%
   subset_vars_keep(get_vars_constructed)
 
-write_rds(background_constructed, "data/background_constructed_to_mi.rds")
+write_rds(background_constructed, 
+          "data/imputed/mi_setup/background_constructed_to_mi.rds")
 
 ffvars <- ffvars[ffvars %in% names(background)]
 background_ffvars <- background %>% select(challengeID, one_of(ffvars))
 background_ffvars$hv5_ppvtpr <- as.numeric(background_ffvars$hv5_ppvtpr)
 
-write_rds(background_ffvars, "data/background_ffvars_to_mi.rds")
+write_rds(background_ffvars, 
+          "data/imputed/mi_setup/background_ffvars_to_mi.rds")

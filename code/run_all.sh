@@ -4,5 +4,5 @@ Rscript -e "rmarkdown::render('code/data_processing/variable_metadata.Rmd', outp
 mv code/data_processing/variable_metadata.html doc/vignettes/variable_metadata.html &&
 
 # set up and do imputations
-# Rscript code/imputation/setup_mi_data.R &&
+Rscript code/imputation/setup_mi_data.R &&
 echo "Done"
