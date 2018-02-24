@@ -26,7 +26,7 @@ d2 <-
   
 background <- bind_cols(d1, d2) %>% select(one_of(names(background)))
 
-write_rds(background, "data/background_to_mi.rds")
+write_rds(background, "data/imputed/mi_setup/background_to_mi.rds")
 
 background_constructed <- 
   background %>%
