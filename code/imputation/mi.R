@@ -5,7 +5,7 @@ detectCores(logical = FALSE)
 
 source("code/data_processing/R/get_vars.R")
 
-background_ffvars <- readRDS("data/background_ffvars_to_mi.rds")
+background_ffvars <- readRDS("data/imputed/mi_setup/background_ffvars_to_mi.rds")
 
 categorical <- get_vars_categorical(background_ffvars)
 
