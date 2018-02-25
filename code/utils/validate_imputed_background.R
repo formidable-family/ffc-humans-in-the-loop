@@ -23,7 +23,7 @@ validate_imputed_background <- function(imputed_background,
   if (!categorical_to_factor) return(imputed_background)
   
   # convert categorical variables to factors
-  categorical_vars <- read_lines("https://raw.githubusercontent.com/ccgilroy/ffc-data-processing/master/output/categorical.txt")
+  categorical_vars <- read_lines("data/variables/categorical.txt")
   categorical_vars <- 
     categorical_vars[categorical_vars %in% colnames(imputed_background)]
   

@@ -1,15 +1,15 @@
 library(readr)
 
 zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {
-  if (!dir.exists("predictions")) dir.create("predictions")
+  if (!dir.exists("output/predictions")) dir.create("output/predictions")
   
   # write prediction to csv
-  pred_path <- file.path("predictions", name)
+  pred_path <- file.path("output", "predictions", name)
   if (!dir.exists(pred_path)) dir.create(pred_path)
   write_csv(prediction, file.path(pred_path, "prediction.csv"))
   
   # copy narrative to prediction directory
-  narrative <- file.path("narratives", name, "narrative.txt")
+  narrative <- file.path("doc", "narratives", name, "narrative.txt")
   if (file.exists(narrative)) {
     file.copy(narrative, pred_path, overwrite = TRUE)
   } else {
@@ -17,14 +17,15 @@ zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {
   }
   
   # copy code to prediction directory
-  file.copy(run_file, pred_path, overwrite = TRUE)
-  file.copy("models/lasso.R", pred_path, overwrite = TRUE)
+  file.copy(file.path("code", "runs", run_file), pred_path, overwrite = TRUE)
+  file.copy("code/models/lasso.R", pred_path, overwrite = TRUE)
   
   # cd all the way into the directory with the predictions before zipping
   # then move zip file to predictions/ folder for convenience
   # and restore working directory to project root
-  setwd(pred_path)
-  zip(zipfile = name, files = list.files())
-  file.rename(paste0(name, ".zip"), file.path("..", paste0(name, ".zip")))
-  setwd("../..")
+  # setwd(pred_path)
+  zip(zipfile = file.path(pred_path, name), files = list.files(pred_path))
+  file.rename(file.path(pred_path, paste0(name, ".zip")), 
+              file.path("output", "predictions", paste0(name, ".zip")))
+  # setwd("../..")
 }
