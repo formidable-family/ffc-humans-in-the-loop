@@ -1,7 +1,9 @@
 library(readr)
 
 zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {
-  if (!dir.exists("output/predictions")) dir.create("output/predictions")
+  if (!dir.exists("output/predictions")) { 
+    dir.create("output/predictions", recursive = TRUE) 
+  }
   
   # write prediction to csv
   pred_path <- file.path("output", "predictions", name)
