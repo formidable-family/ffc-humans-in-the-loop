@@ -30,7 +30,8 @@ zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {
   # then move zip file to predictions/ folder for convenience
   # and restore working directory to project root
   zip(zipfile = file.path(pred_path, name), 
-      files = list.files(pred_path, full.names = TRUE))
+      files = list.files(pred_path, full.names = TRUE), 
+      flags = "-r9Xj")
   file.rename(file.path(pred_path, paste0(name, ".zip")), 
               file.path("output", "predictions", "zipped", paste0(name, ".zip")))
 }
