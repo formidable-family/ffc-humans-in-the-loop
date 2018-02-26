@@ -1,5 +1,10 @@
-library(tidyverse)
+set.seed(123)
+
+library(dplyr)
+library(purrr)
+library(readr)
 library(doParallel)
+library(parallel)
 registerDoParallel(cores = parallel::detectCores(logical = FALSE))
 
 # for more info on
@@ -7,23 +12,23 @@ registerDoParallel(cores = parallel::detectCores(logical = FALSE))
 # https://stackoverflow.com/a/21710769
 # https://stackoverflow.com/a/29001039
 
-source("models/calculate_penalty_factors.R")
-source("models/lasso.R")
-source("models/setup_lasso_all.R")
+source("code/models/calculate_penalty_factors.R")
+source("code/models/lasso.R")
+source("code/models/setup_lasso_all.R")
 
-source("utils/validate_imputed_background.R")
-source("utils/zip_prediction.R")
+source("code/utils/validate_imputed_background.R")
+source("code/utils/zip_prediction.R")
 
-source("https://raw.githubusercontent.com/ccgilroy/ffc-data-processing/master/R/get_vars.R")
-source("https://raw.githubusercontent.com/ccgilroy/ffc-data-processing/master/R/merge_train.R")
-source("https://raw.githubusercontent.com/ccgilroy/ffc-data-processing/master/R/subset_vars.R")
+source("code/data_processing/R/get_vars.R")
+source("code/data_processing/R/merge_train.R")
+source("code/data_processing/R/subset_vars.R")
 
 data_file_name <- "background_constructed_amelia.rds"
 prediction_name <- "lasso_amelia_imputation_constructed"
 
 # data ----
 train <- read_csv(file.path("data", "train.csv"))
-imputed_background <- readRDS(file.path("data", data_file_name))
+imputed_background <- readRDS(file.path("data", "imputed", data_file_name))
 
 # things that need to be done ONCE for all imputations
 
