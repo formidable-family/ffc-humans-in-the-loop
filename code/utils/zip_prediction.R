@@ -5,6 +5,10 @@ zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {
     dir.create("output/predictions", recursive = TRUE) 
   }
   
+  if (!dir.exists("output/predictions/zipped")) { 
+    dir.create("output/predictions/zipped", recursive = TRUE) 
+  }
+  
   # write prediction to csv
   pred_path <- file.path("output", "predictions", name)
   if (!dir.exists(pred_path)) dir.create(pred_path)
@@ -25,9 +29,8 @@ zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {
   # cd all the way into the directory with the predictions before zipping
   # then move zip file to predictions/ folder for convenience
   # and restore working directory to project root
-  # setwd(pred_path)
-  zip(zipfile = file.path(pred_path, name), files = list.files(pred_path))
+  zip(zipfile = file.path(pred_path, name), 
+      files = list.files(pred_path, recursive = TRUE))
   file.rename(file.path(pred_path, paste0(name, ".zip")), 
-              file.path("output", "predictions", paste0(name, ".zip")))
-  # setwd("../..")
+              file.path("output", "predictions", "zipped", paste0(name, ".zip")))
 }
