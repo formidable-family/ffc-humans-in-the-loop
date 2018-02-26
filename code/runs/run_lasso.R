@@ -1,5 +1,10 @@
-library(tidyverse)
+set.seed(123)
+
+library(dplyr)
+library(purrr)
+library(readr)
 library(doParallel)
+library(parallel)
 registerDoParallel(cores = parallel::detectCores(logical = FALSE))
 
 # for more info on
@@ -7,13 +12,13 @@ registerDoParallel(cores = parallel::detectCores(logical = FALSE))
 # https://stackoverflow.com/a/21710769
 # https://stackoverflow.com/a/29001039
 
-source("models/calculate_penalty_factors.R")
-source("models/lasso.R")
+source("code/models/calculate_penalty_factors.R")
+source("code/models/lasso.R")
 
-source("utils/validate_imputed_background.R")
-source("utils/zip_prediction.R")
+source("code/utils/validate_imputed_background.R")
+source("code/utils/zip_prediction.R")
 
-source("https://raw.githubusercontent.com/ccgilroy/ffc-data-processing/master/R/merge_train.R")
+source("code/data_processing/R/merge_train.R")
 
 run_lasso <- function(data_file_name, prediction_name) {
   # hardcoded file dependencies
@@ -22,7 +27,7 @@ run_lasso <- function(data_file_name, prediction_name) {
   
   # data ----
   train <- read_csv(file.path("data", "train.csv"))
-  imputed_background <- readRDS(file.path("data", data_file_name))
+  imputed_background <- readRDS(file.path("data", "imputed", data_file_name))
   
   # handle potential issues with imputed data
   # adds a challengeID column if necessary
@@ -34,7 +39,7 @@ run_lasso <- function(data_file_name, prediction_name) {
   
   # covariates ----
   ffvars_scored <- 
-    read_csv(file.path("variables", "ffvars_scored.csv")) %>%
+    read_csv(file.path("data", "variables", "ffvars_scored.csv")) %>%
     filter(!is.na(ffvar))
   
   gpa_vars <- ffvars_scored %>% filter(outcome == "gpa")
