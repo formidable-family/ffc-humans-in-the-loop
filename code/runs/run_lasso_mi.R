@@ -1,9 +1,8 @@
-# library(tidyverse)
+set.seed(123)
 
 library(dplyr)
-library(readr)
 library(purrr)
-
+library(readr)
 library(doParallel)
 library(parallel)
 registerDoParallel(cores = parallel::detectCores(logical = FALSE))

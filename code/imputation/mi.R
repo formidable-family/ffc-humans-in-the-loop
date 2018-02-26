@@ -1,3 +1,5 @@
+set.seed(123)
+
 library(Amelia)
 library(parallel)
 library(labelled)
