@@ -6,6 +6,7 @@ mv code/data_processing/variable_metadata.html doc/vignettes/variable_metadata.h
 # set up and do imputations
 Rscript code/imputation/setup_mi_data.R &&
 Rscript code/imputation/mi.R &&
+Rscript code/imputation/mi_constructed.R &&
 
 # run models
 Rscript code/runs/run_lasso_mi.R &&
