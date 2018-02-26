@@ -7,7 +7,7 @@ detectCores(logical = FALSE)
 
 # the parallel backend to use for Amelia is different 
 # between windows and unix-based systems
-if (.Platform$OS.type == "window") {
+if (.Platform$OS.type == "windows") {
   options(amelia.parallel = "snow")
 } else {
   options(amelia.parallel = "multicore")
