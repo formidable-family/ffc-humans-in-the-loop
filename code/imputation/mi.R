@@ -5,6 +5,14 @@ library(parallel)
 library(labelled)
 detectCores(logical = FALSE)
 
+# the parallel backend to use for Amelia is different 
+# between windows and unix-based systems
+if (.Platform$OS.type == "window") {
+  options(amelia.parallel = "snow")
+} else {
+  options(amelia.parallel = "multicore")
+}
+
 source("code/data_processing/R/get_vars.R")
 
 background_ffvars <- readRDS("data/imputed/mi_setup/background_ffvars_to_mi.rds")
@@ -19,7 +27,6 @@ mi_background_ffvars <-
          empri = .1 * nrow(background_ffvars), 
          tolerance = .005,
          boot.type = "none", 
-         parallel = "multicore", 
          ncpus = 5)
 
 saveRDS(mi_background_ffvars, "data/imputed/background_ffvars_amelia.rds")
@@ -39,7 +46,6 @@ mi_background_constructed <-
          empri = .1 * nrow(background_constructed), 
          tolerance = .005,
          boot.type = "none", 
-         parallel = "multicore", 
          ncpus = 5)
 
 saveRDS(mi_background_constructed, "data/imputed/background_constructed_amelia.rds")
