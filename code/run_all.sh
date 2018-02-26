@@ -9,5 +9,6 @@ Rscript code/imputation/mi.R &&
 
 # run models
 Rscript code/runs/run_lasso_mi.R &&
+Rscript code/runs/run_lasso_mi_constructed.R &&
 
 echo "Done"
