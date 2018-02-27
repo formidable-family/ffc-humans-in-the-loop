@@ -39,4 +39,4 @@ lm_typed_df <- regImputation(yourDF, output_typed,
                              parallel = reg_parallel, 
                              failmode = "impute")
 
-saveRDS("data/imputed/imputed-lm-vartype.rds")
+saveRDS(lm_typed_df, "data/imputed/imputed-lm-vartype.rds")
