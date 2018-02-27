@@ -7,9 +7,11 @@ mv code/data_processing/variable_metadata.html doc/vignettes/variable_metadata.h
 Rscript code/imputation/setup_mi_data.R &&
 Rscript code/imputation/mi.R &&
 Rscript code/imputation/mi_constructed.R &&
+Rscript code/imputation/reg_lm_typed.R &&
 
 # run models
 Rscript code/runs/run_lasso_mi.R &&
 Rscript code/runs/run_lasso_mi_constructed.R &&
+Rscript code/runs/run_lasso_all.R &&
 
 echo "Done"
