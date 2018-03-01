@@ -23,12 +23,12 @@ if (.Platform$OS.type == "unix") {
 yourDF <- initImputation(data = "data/background.csv") 
 
 # create correlation matrix
-output_untyped <- corMatrix(data=yourDF)
+output_untyped <- corMatrix(data=yourDF, 
+                            varpattern = '^c[mfhpktfvino]{1,2}[12345]')
 
 # impute data frame
 lasso_untyped_constructed_df <- regImputation(yourDF, output_untyped,    
                                               method = "lasso",
-                                              varpattern = '^c[mfhpktfvino]{1,2}[12345]',
                                               top_predictors = 5, 
                                               threshold = .1, 
                                               parallel = reg_parallel, 
