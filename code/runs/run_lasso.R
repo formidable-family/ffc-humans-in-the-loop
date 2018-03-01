@@ -139,3 +139,6 @@ lasso_mean_imputation <-
 
 lasso_regression_imputation_lm <- 
   run_lasso("imputed-lm-vartype.rds", "lasso_regression_imputation_lm")
+
+lasso_regression_imputation_lm_untyped <- 
+  run_lasso("imputed-lm-untyped.rds", "lasso_regression_imputation_lm_untyped")

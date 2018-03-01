@@ -27,10 +27,10 @@ output_untyped <- corMatrix(data=yourDF)
 
 # impute data frame
 lasso_untyped_df <- regImputation(yourDF, output_untyped,    
-                                  method = "lasso",
+                                  method = "lm",
                                   top_predictors = 5, 
                                   threshold = .1, 
                                   parallel = reg_parallel, 
                                   failmode = "impute")
 
-saveRDS(meanmode_typed_df, "data/imputed/imputed-fulldata-lasso.rds")
+saveRDS(meanmode_typed_df, "data/imputed/imputed-lm-untyped.rds")
