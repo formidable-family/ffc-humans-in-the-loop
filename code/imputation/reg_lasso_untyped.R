@@ -33,4 +33,4 @@ lasso_untyped_df <- regImputation(yourDF, output_untyped,
                                   parallel = reg_parallel, 
                                   failmode = "impute")
 
-saveRDS(meanmode_typed_df, "data/imputed/imputed-fulldata-lasso.rds")
+saveRDS(lasso_untyped_df, "data/imputed/imputed-fulldata-lasso.rds")

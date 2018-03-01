@@ -26,11 +26,11 @@ yourDF <- initImputation(data = "data/background.csv")
 output_untyped <- corMatrix(data=yourDF)
 
 # impute data frame
-lasso_untyped_df <- regImputation(yourDF, output_untyped,    
-                                  method = "lm",
-                                  top_predictors = 5, 
-                                  threshold = .1, 
-                                  parallel = reg_parallel, 
-                                  failmode = "impute")
+lm_untyped_df <- regImputation(yourDF, output_untyped,    
+                               method = "lm",
+                               top_predictors = 5, 
+                               threshold = .1, 
+                               parallel = reg_parallel, 
+                               failmode = "impute")
 
-saveRDS(meanmode_typed_df, "data/imputed/imputed-lm-untyped.rds")
+saveRDS(lm_untyped_df, "data/imputed/imputed-lm-untyped.rds")
