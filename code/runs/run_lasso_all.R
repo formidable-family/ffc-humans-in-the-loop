@@ -68,7 +68,8 @@ ffvars_scored <-
          mturkers = ifelse(is.infinite(mturkers), NA, mturkers))
 
 all_covariates <- rep(list(colnames(imputed_background)[-1]), 6)
-names(all_covariates) <- outcomes
+names(all_covariates) <- c("gpa", "grit", "material_hardship", 
+                           "eviction", "layoff", "job_training"))
 covariates_df <- 
   all_covariates %>% 
   as_data_frame() %>% 
