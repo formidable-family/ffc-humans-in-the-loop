@@ -168,5 +168,5 @@ prediction_name_experts <- paste0(prediction_name, "_experts")
 prediction_name_mturkers <- paste0(prediction_name, "_mturkers")
 
 zip_prediction(prediction, prediction_name, run_file = "run_lasso_all.R")
-zip_prediction(prediction, prediction_name_experts, run_file = "run_lasso_all.R")
-zip_prediction(prediction, prediction_name_mturkers, run_file = "run_lasso_all.R")
+zip_prediction(prediction_experts, prediction_name_experts, run_file = "run_lasso_all.R")
+zip_prediction(prediction_mturkers, prediction_name_mturkers, run_file = "run_lasso_all.R")
