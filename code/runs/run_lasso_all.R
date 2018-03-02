@@ -69,7 +69,7 @@ ffvars_scored <-
 
 all_covariates <- rep(list(colnames(imputed_background)[-1]), 6)
 names(all_covariates) <- c("gpa", "grit", "material_hardship", 
-                           "eviction", "layoff", "job_training"))
+                           "eviction", "layoff", "job_training")
 covariates_df <- 
   all_covariates %>% 
   as_data_frame() %>% 
