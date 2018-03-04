@@ -6,7 +6,6 @@ Matrix
 
 doParallel
 parallel
-multicore
 snow
 
 dplyr
