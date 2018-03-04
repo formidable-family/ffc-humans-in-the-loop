@@ -131,14 +131,14 @@ run_lasso <- function(data_file_name, prediction_name) {
        prediction_mturkers = prediction_mturkers)
 }
 
-lasso_regression_imputation <- 
-  run_lasso("imputed-fulldata-lasso.rds", "lasso_regression_imputation")
+glmnet_lasso_h <- 
+  run_lasso("imputed-fulldata-lasso.rds", "glmnet_lasso_h")
 
-lasso_mean_imputation <- 
-  run_lasso("meanmode_imputed.rds", "lasso_mean_imputation")
+glmnet_mean_h <- 
+  run_lasso("meanmode_imputed.rds", "glmnet_mean_h")
 
-lasso_regression_imputation_lm <- 
-  run_lasso("imputed-lm-vartype.rds", "lasso_regression_imputation_lm")
+glmnet_lm_h <- 
+  run_lasso("imputed-lm-vartype.rds", "glmnet_lm_h")
 
-lasso_regression_imputation_lm_untyped <- 
-  run_lasso("imputed-lm-untyped.rds", "lasso_regression_imputation_lm_untyped")
+glmnet_lmuntyped_h <- 
+  run_lasso("imputed-lm-untyped.rds", "glmnet_lmuntyped_h")

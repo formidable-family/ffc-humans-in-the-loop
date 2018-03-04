@@ -24,7 +24,7 @@ source("code/data_processing/R/merge_train.R")
 source("code/data_processing/R/subset_vars.R")
 
 data_file_name <- "background_ffvars_amelia.rds"
-prediction_name <- "lasso_amelia_imputation"
+prediction_name <- "glmnet_mi_h"
 
 # data ----
 train <- read_csv(file.path("data", "train.csv"))

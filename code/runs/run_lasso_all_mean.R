@@ -24,7 +24,7 @@ source("code/data_processing/R/merge_train.R")
 source("code/data_processing/R/subset_vars.R")
 
 data_file_name <- "meanmode_imputed.rds"
-prediction_name <- "lasso_mean_imputation_all_covariates"
+prediction_name <- "glmnet_mean_all"
 
 # data ----
 train <- read_csv(file.path("data", "train.csv"))

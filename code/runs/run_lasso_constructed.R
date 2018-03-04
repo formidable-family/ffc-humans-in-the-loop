@@ -24,7 +24,7 @@ source("code/data_processing/R/merge_train.R")
 source("code/data_processing/R/subset_vars.R")
 
 data_file_name <- "imputed-lasso-constructed.rds"
-prediction_name <- "lasso_lasso_imputation_constructed_covariates"
+prediction_name <- "glmnet_lasso_constructed"
 
 # data ----
 train <- read_csv(file.path("data", "train.csv"))
