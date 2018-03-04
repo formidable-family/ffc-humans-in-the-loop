@@ -38,7 +38,7 @@ imputed_background <- validate_imputed_background(imputed_background)
 imputed_background <- 
   imputed_background %>%
   subset_vars_remove(get_vars_unique) %>%
-  subset_vars_remove(get_vars_constructed)
+  subset_vars_keep(get_vars_constructed)
 
 ffc <- merge_train(imputed_background, train) %>% arrange(challengeID)
 
