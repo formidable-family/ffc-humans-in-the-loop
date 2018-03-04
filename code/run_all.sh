@@ -18,7 +18,9 @@ Rscript code/runs/run_lasso_mi.R &&
 Rscript code/runs/run_lasso_mi_constructed.R &&
 Rscript code/runs/run_lasso.R &&
 Rscript code/runs/run_lasso_constructed.R &&
+Rscript code/runs/run_lasso_constructed_lm.R &&
 Rscript code/runs/run_lasso_all.R &&
 Rscript code/runs/run_lasso_all_mean.R &&
+Rscript code/runs/run_lasso_all_lasso.R &&
 
 echo "Done"
