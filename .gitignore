@@ -7,4 +7,5 @@ data/background.dta
 data/prediction.csv
 data/train.csv
 *.rds
-output/predictions/
+output/predictions/*.R
+output/predictions/zipped/
