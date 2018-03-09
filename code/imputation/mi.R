@@ -2,7 +2,7 @@ library(Amelia)
 library(parallel)
 library(foreach)
 library(doParallel)
-library(do)
+library(doRNG)
 library(labelled)
 
 detectCores(logical = FALSE)
