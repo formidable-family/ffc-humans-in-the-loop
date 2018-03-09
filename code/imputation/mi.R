@@ -1,9 +1,8 @@
-set.seed(123)
-
 library(Amelia)
 library(parallel)
 library(foreach)
 library(doParallel)
+library(doRNG)
 library(labelled)
 
 detectCores(logical = FALSE)
@@ -19,11 +18,12 @@ Sys.time()
 
 # https://lists.gking.harvard.edu/pipermail/amelia/2013-June/001023.html
 # https://gist.github.com/jrnold/1236095/4f6076e824bbefec32f03c446f6cefb70f651a2e
+# https://cran.r-project.org/web/packages/doRNG/index.html
+set.seed(123)
 mi_background_ffvars <- 
   foreach(i = 1:5, 
           .combine = "ameliabind", 
-          .packages = "Amelia") %dopar% {
-            set.seed(i)
+          .packages = "Amelia") %dorng% {
             amelia(background_ffvars, m = 1, 
                    idvars = c("challengeID"),
                    noms = categorical, 
