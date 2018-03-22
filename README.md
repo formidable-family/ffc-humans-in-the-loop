@@ -16,11 +16,11 @@ The code (in the `code/` subdirectory) proceeds in three major steps, each with 
 2) (`imputation/`) imputing **seven** intermediate data sets using a variety of missing data imputation strategies
 3) (`models/` and `runs`/) running regularized regression models on the various imputed data sets, subsetting variables in various manners and incorporating or not incorporating score information (`tuning/` and `utils/` contain helper scripts and functions related to fitting models)
 
-Empty text files ensure that the directory structure is preserved on GitHub for some of the intermediate files that are produced. We have opted to break out some imputation and run files into individual scripts, even at the cost of duplication, for the sake of clarity and robustness. 
+Empty text files ensure that the directory structure is preserved on GitHub for some of the intermediate files that are produced. We have opted to break out some imputation and run files into individual scripts, even at the cost of duplication, for the sake of clarity and robustness.
 
 # Running the code
 
-The data processing, imputation, and model code was run on a Dell PowerEdge M620 Blade server with 16 2.00GHz Intel Xeon CPUs and 192GB of RAM, running Windows Server 2012 R2 (64-bit) Enterprise Edition ([link](https://csde.washington.edu/computing/resources/#Sim_Details)). On that server, it takes approximately **one day** to run. Code for producing figures and tables was run separately, on a laptop.
+The data processing, imputation, and model code was run on a Dell PowerEdge M620 Blade server with 16 2.00GHz Intel Xeon CPUs and 192GB of RAM, running Windows Server 2012 R2 (64-bit) Enterprise Edition ([link](https://csde.washington.edu/computing/resources/#Sim_Details)). On that server, it takes approximately **one or two days** to run. Code for producing figures and tables was run separately, on a laptop.
 
 The code to produce 25 sets of predictions from the original data may be run as follows from the **root directory of the project** (all file paths are relative to this) in a bash terminal:
 
@@ -46,13 +46,36 @@ One package dependency, `FFCRegressionImputation`, is not on CRAN and must be in
 
 Three data files from the Fragile Families Challenge---`background.csv`, `background.dta`, and `train.csv`---must be placed in the `data/` subdirectory.
 
-In addition, the `data/` subdirectory contains a file, `variables/ffvars_scored.csv`, with descriptive variable ideas manually mapped to FFC variable names, and those variables' scores according to surveyed experts and MTurkers.
-
+In addition, the `data/` subdirectory contains a file, `variables/ffvars_scored.csv`, with descriptive variable ideas manually mapped to FFC variable names, and those variables' scores according to surveyed experts and MTurkers. Further details of this file's generation are described in the paper.
+.
 ## Data processing
+
+An rmarkdown vignette, `variable_metadata.Rmd`, uses a series of helper functions to classify variables as categorical or continuous, makes some manual corrections, then writes those variables to separate text files (stored in `data/variables/`), one per line, for use later in the pipeline. The vignette discusses some of the complications of this process.
 
 ## Imputation
 
+The imputation scripts create intermediate data sets that drop some variables and impute missing values for the rest.
+
+Two data sets are multiply imputed (m = 5) using the Amelia package. Amelia bootstraps values from a multivariate normal distribution, and computation time increases very nonlinearly with increasing number of variables. Even with only 200-300 variables out of 10000, this is much slower than any of the other data-processing, imputation, or model-fitting code in this project. On a powerful server, with the individual data sets running on 5 parallel processes, **this takes at least 8 hours, if not longer** for each of the two scripts---one running on the subset of *scored* variables, and the other running on the subset of *constructed* variables. We do not attempt to impute the full data set using Amelia.
+
+The other five data sets (mean/mode, lasso, lasso-constructed subset, OLS, and OLS-untyped) are singly imputed using Anna Filippova's `FFCRegressionImputation` package. These take roughly an hour each, and mostly run on the entire data set except as noted.
+
 ## Model runs
+
+From the variable scores, the training data, the categorical/continuous classification, and the imputed background data, regularized regression using the glmnet package generates sets of predicted outcomes, saved as the `output/predictions/*/prediction.csv`.
+
+The prediction subdirectories are named schematically as follows:
+
+{model + imputation + variables + [scores]}
+
+- model is always *glmnet*
+- imputation is one of *lasso*, *lm*, *lmuntyped*, *mean*, or *mi*.
+- variables is one of *all*, *constructed*, or *h* (for 'human', the subset of variables included in the wikisurveys)
+- scores is *experts*, *mturkers*, or nothing
+
+A total of 25 combinations (not all possibilities, because some are uninformative or computationally too difficult) are produced.
+
+Model runs on subsets of covariates are relatively fast, running in anywhere from a few minutes to half an hour. Model runs on the full set of covariates are slower, and can take from an hour to several hours. Because model runs on the full set of covariates are slower, and because the covariates in these cases do not vary between outcomes, the matrices of covariates are cached for use across outcomes, which speeds up computation.
 
 **Expected warnings:** The original code submissions for the Fragile Families Challenge required a narrative.txt file to go with each zipped submission. Our code issues a warning if a narrative.txt file is absent, but we have moved to project-level documentation instead, and removed all existing narrative.txt files.
 
