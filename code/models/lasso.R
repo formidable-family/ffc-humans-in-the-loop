@@ -1,3 +1,6 @@
+#' Purpose: main model function
+#' (See runs for run information)
+
 library(glmnet)
 
 lasso <- function(data, outcome, covariates, 

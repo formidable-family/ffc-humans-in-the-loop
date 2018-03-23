@@ -1,3 +1,6 @@
+#' Purpose: map scores to penalties for lambda parameter in glmnet
+#' (See runs for run information)
+
 library(stringr)
 
 calculate_penalty_factors <- function(model_covariates, 

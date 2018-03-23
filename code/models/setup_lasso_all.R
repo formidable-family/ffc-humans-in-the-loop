@@ -1,3 +1,6 @@
+#' Purpose: cache model matrices for runs using all covariates
+#' (See runs for run information)
+
 setup_x <- function(data, outcome, covariates) {
   # create x for reuse across models
   

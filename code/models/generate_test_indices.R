@@ -1,3 +1,5 @@
+#' Purpose: help functions for tuning
+
 generate_test_indices <- function(data, outcome) {
   valid_outcomes <- which(!is.na(data[[outcome]]))
   sample(valid_outcomes, .2 * length(valid_outcomes))
