@@ -38,7 +38,7 @@ This latter will run the code as a background process, even if you disconnect fr
 
 ## Packages and dependencies
 
-Dependencies are listed in `code/requirements_r.txt`.
+The results in this paper were created with software written in R 3.4.3 (R Core Team, 2017) using the following packages: glmnet 2.0.13 (Friedman, Hastie, and Tibshirani, 2010), Amelia 1.7.4 (Honaker, King, and Blackwell, 2011), caret 6.0.78 (Kuhn, 2017), polywog 0.4.0 (Kenkel and Signorino, 2014), Matrix 1.2.12 (Bates and Maechler, 2017), doParallel 1.0.11 (Microsoft Corporation and Weston, 2017), parallel 3.4.3 (R Core Team, 2017), dplyr 0.7.4 (Wickham, Francois, Henry, and Müller, 2017), forcats 0.3.0 (Wickham, 2018), haven 1.1.0 (Wickham and Miller, 2017), abelled 1.0.1 (Larmarange, 2017), purrr 0.2.4 (Henry and Wickham, 2017), readr 1.1.1 (Wickham, Hester, and Francois, 2017), stringr 1.3.0 (Wickham, 2018), tidyr 0.8.0 (Wickham and Henry, 2018), devtools 1.13.5 (Wickham, Hester, and Chang, 2018), rmarkdown 1.9 (Allaire et al, 2018), rprojroot 1.3-2 (Müller, 2018), ggplot2 2.2.1 (Wickham, 2009), plyr 1.8.4 (Wickham, 2011), and data.table 1.10.4-3 (Dowle and Srinivasan, 2017). Dependencies are listed in `code/requirements_r.txt`.
 
 One package dependency, `FFCRegressionImputation`, is not on CRAN and must be installed from GitHub using `devtools::install_github("annafil/FFCRegressionImputation")`. `run_all.sh` will do this automatically for you. This package was developed by a coauthor of this project, Anna Filippova, and the package options are documented on the [GitHub page](https://github.com/annafil/FFCRegressionImputation).
 
@@ -51,6 +51,8 @@ In addition, the `data/` subdirectory contains a file, `variables/ffvars_scored.
 ## Data processing
 
 An rmarkdown vignette, `variable_metadata.Rmd`, uses a series of helper functions to classify variables as categorical or continuous, makes some manual corrections, then writes those variables to separate text files (stored in `data/variables/`), one per line, for use later in the pipeline. The vignette discusses some of the complications of this process.
+
+Please note that haven 1.1.1 has a bug that renders it unusable for this data processing step; you must use haven 1.1.0.
 
 ## Imputation
 
@@ -76,6 +78,8 @@ The prediction subdirectories are named schematically as follows:
 A total of 25 combinations (not all possibilities, because some are uninformative or computationally too difficult) are produced.
 
 Model runs on subsets of covariates are relatively fast, running in anywhere from a few minutes to half an hour. Model runs on the full set of covariates are slower, and can take from an hour to several hours. Because model runs on the full set of covariates are slower, and because the covariates in these cases do not vary between outcomes, the matrices of covariates are cached for use across outcomes, which speeds up computation.
+
+The alpha parameter for glmnet is tuned
 
 **Expected warnings:** The original code submissions for the Fragile Families Challenge required a narrative.txt file to go with each zipped submission. Our code issues a warning if a narrative.txt file is absent, but we have moved to project-level documentation instead, and removed all existing narrative.txt files.
 

@@ -6,7 +6,6 @@ Matrix
 
 doParallel
 parallel
-snow
 
 dplyr
 forcats
@@ -22,3 +21,7 @@ annafil/FFCRegressionImputation
 
 rmarkdown
 rprojroot
+
+ggplot2
+plyr
+data.table
