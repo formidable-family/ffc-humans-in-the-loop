@@ -2,27 +2,20 @@ rm(list=ls())
 
 #setwd
 homedir<-file.path(
-  "c:",
-  "users",
-  "adaner",
-  "dropbox",
-  "_learning",
-  "sicss",
-  "ffc_plots"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"), 
+  "output", 
+  "figures"
 )
 
-metadir<-file.path(
-  homedir,
-  "meta"
-)
+metadir<-homedir
+
 datadir<-file.path(
-  homedir,
-  "data"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"),
+  "data", 
+  "scores"
 )
-outputdir<-file.path(
-  homedir,
-  "output"
-)
+
+outputdir<-homedir
 
 #packages
 require(stringr)
@@ -32,13 +25,11 @@ require(tidyr)
 require(data.table)
 
 #load data
-setwd(datadir); dir()
-load('10_prepped.RData')
+load(file.path(homedir, '10_prepped.RData'))
 
 #load for nice names
-setwd(metadir); dir()
 varsdf<-read.csv(
-  'prettynamer.csv',
+  file.path(metadir, 'prettynamer.csv'),
   stringsAsFactors=F
 )
 
@@ -1318,7 +1309,6 @@ gs.list[[tmpname]]<-list(
 
 #OUTPUT
 #output graphlist
-setwd(outputdir)
 this.sequence<-seq_along(gs.list)
 for(i in this.sequence) {
   Sys.sleep(1)
@@ -1330,7 +1320,7 @@ for(i in this.sequence) {
   thiselement<-gs.list[[i]]
   
   ggsave(
-    filename=thiselement$filename,
+    filename=file.path(outputdir, thiselement$filename),
     plot=thiselement$graph,
     width=thiselement$width,
     height=thiselement$height
