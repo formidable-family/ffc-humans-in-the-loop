@@ -1,3 +1,9 @@
+#' Purpose: Subsets and types variables to prepare for multiple imputation
+#' Inputs: data/background.csv, data/variables/ffvars.txt, data/variables/continuous.txt, data/variables/categorical.txt
+#' Outputs: data/imputed/mi_setup/background_to_mi.rds, data/imputed/mi_setup/background_ffvars_to_mi.rds
+#' Machine used: cluster
+#' Expected runtime: less than an hour
+
 library(FFCRegressionImputation)
 
 source("code/data_processing/init.R")

@@ -1,3 +1,9 @@
+#' Purpose: multiply imputes five data sets using Amelia / MVN distribution and EM algorithm
+#' Inputs: data/imputed/mi_setup/background_constructed_to_mi.rds
+#' Outputs: data/imputed/background_constructed_amelia.rds
+#' Machine used: cluster
+#' Expected runtime: 8-12 hours
+
 set.seed(123)
 
 library(Amelia)
