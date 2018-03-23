@@ -2,22 +2,15 @@ rm(list=ls())
 
 #setwd
 homedir<-file.path(
-  "c:",
-  "users",
-  "adaner",
-  "dropbox",
-  "_learning",
-  "sicss",
-  "ffc_plots"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"), 
+  "output", 
+  "figures"
 )
 
 datadir<-file.path(
-  homedir,
-  "data"
-)
-outputdir<-file.path(
-  homedir,
-  "output"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"),
+  "data", 
+  "scores"
 )
 
 #packages
@@ -31,9 +24,8 @@ require(data.table)
 ###########################################
 
 #load new holdout scores
-setwd(datadir)
 hodf<-read.csv(
-  'ffc_mses_holdout_032018.csv',
+  file.path(datadir, 'holdout_results.csv'),
   stringsAsFactors=F
 )
 head(hodf); tail(hodf)
@@ -116,9 +108,8 @@ hodf <- gather(
 )
 
 #load the baseline scores
-setwd(datadir); dir()
 tmpdf<-read.csv(
-  'ffc_baselinescores.csv',
+  file.path(datadir, 'ffc_baselinescores.csv'),
   stringsAsFactors=F
 )
 tmpdf<-
@@ -185,8 +176,7 @@ fulldf<-by(fulldf,fulldf$outcome,function(df) {
 ###########################################
 ###########################################
 
-setwd(datadir); dir()
 save.image(
-  "10_prepped.RData"
+  file.path(homedir, "10_prepped.RData")
 )
 
