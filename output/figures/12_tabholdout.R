@@ -2,26 +2,23 @@ rm(list=ls())
 
 #setwd
 homedir<-file.path(
-  "c:",
-  "users",
-  "adaner",
-  "dropbox",
-  "_learning",
-  "sicss",
-  "ffc_plots"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"), 
+  "output", 
+  "figures"
 )
 
-metadir<-file.path(
-  homedir,
-  "meta"
-)
 datadir<-file.path(
-  homedir,
-  "data"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"),
+  "data", 
+  "scores"
 )
+
+metadir<- homedir
+
 outputdir<-file.path(
-  homedir,
-  "output"
+  rprojroot::find_root("ffc-humans-in-the-loop.Rproj"), 
+  "output", 
+  "tables"
 )
 
 #packages
@@ -32,13 +29,11 @@ require(tidyr)
 require(data.table)
 
 #load data
-setwd(datadir); dir()
-load('10_prepped.RData')
+load(file.path(homedir, '10_prepped.RData'))
 
 #load for nice names
-setwd(metadir); dir()
 varsdf<-read.csv(
-  'prettynamer.csv',
+  file.path(metadir, 'prettynamer.csv'),
   stringsAsFactors=F
 )
 
@@ -146,17 +141,16 @@ tmptab<-xtable(
 )
 
 #print table
-setwd(outputdir)
 print(
   tmptab,
-  file="tab_holdout.tex",
+  file=file.path(outputdir, "tab_holdout.tex"),
   ##preset commands, same for all
   caption.placement="top",
   booktabs=T,
   include.rownames=F,
   sanitize.text.function=identity
 )
-output<-readLines('tab_holdout.tex')
+output<-readLines(file.path(outputdir, 'tab_holdout.tex'))
 thisline<-str_detect(output,"begin\\{(long)?table\\}") %>%
   which %>%
   max 
@@ -166,6 +160,6 @@ write(
     paste0("\\scriptsize"),
     output[(thisline+1):length(output)]
   ),
-  file='tab_holdout.tex'
+  file=file.path(outputdir, "tab_holdout.tex")
 )
 

@@ -39,7 +39,7 @@ varsdf<-read.csv(
 #plotting prelims
 require(ggplot2)
 require(ggthemes)
-require(extrafont)
+# require(extrafont)
 require(RColorBrewer)
 require(scales)
 #load fonts
