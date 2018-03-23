@@ -79,7 +79,7 @@ A total of 25 combinations (not all possibilities, because some are uninformativ
 
 Model runs on subsets of covariates are relatively fast, running in anywhere from a few minutes to half an hour. Model runs on the full set of covariates are slower, and can take from an hour to several hours. Because model runs on the full set of covariates are slower, and because the covariates in these cases do not vary between outcomes, the matrices of covariates are cached for use across outcomes, which speeds up computation.
 
-The alpha parameter for glmnet is tuned
+The alpha parameter for glmnet is only *approximately* tuned using a grid search in `code/tuning/tune_alpha.R`, and the resulting alpha values are hard-coded into the main run scripts. Because changing alpha does not have a large impact on cross-validated MSE values, we do not optimize alpha for each different type of model run.
 
 **Expected warnings:** The original code submissions for the Fragile Families Challenge required a narrative.txt file to go with each zipped submission. Our code issues a warning if a narrative.txt file is absent, but we have moved to project-level documentation instead, and removed all existing narrative.txt files.
 
