@@ -14,6 +14,11 @@ background <- initImputation(data = "data/background.csv",
 
 x <- gg_miss_case(background)
 
+gg_miss_case(background, order_cases = TRUE)
+
 y <- 
   gg_miss_var(background, show_pct = TRUE) + 
+  theme(axis.ticks.y=element_blank(), axis.text.y=element_blank())
+
+gg_miss_var(background, show_pct = TRUE) + 
   theme(axis.ticks.y=element_blank(), axis.text.y=element_blank())

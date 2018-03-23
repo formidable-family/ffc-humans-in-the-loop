@@ -1,0 +1,19 @@
+name,prettyname
+all + none,No Subsetting + No Scores
+all,No Subsetting
+none,No Scores
+mi,MI
+all + mturkers,No Subsetting + MTurker Scores
+h,Wikisurveyed
+experts,Expert Scores
+mean,Mean
+all + experts,No Subsetting + Expert Scores
+constructed,Constructed
+mturkers,MTurkers
+lm,LM
+h + mturkers,Wikisurveyed + MTurker Scores
+lasso,LASSO
+h + none,Wikisurveyed + No Scores
+lmuntyped,LM-Untyped
+h + experts,Wikisurveyed + Expert Scores
+constructed + none,Constructed + No Scores
