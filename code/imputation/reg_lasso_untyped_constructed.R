@@ -1,3 +1,9 @@
+#' Purpose: Imputes missing values of covariates using regularized regression for constructed subset of variables
+#' Inputs: data/background.csv
+#' Outputs: data/imputed/imputed-lasso-constructed.rds
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(devtools)

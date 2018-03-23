@@ -1,3 +1,9 @@
+#' Purpose: Source all helper functions and packages for data processing
+#' Inputs: R files in code/data_processing/R subdirectory
+#' Outputs: NA
+#' Machine used: cluster
+#' Expected runtime: seconds
+
 library(dplyr)
 library(forcats)
 library(haven)

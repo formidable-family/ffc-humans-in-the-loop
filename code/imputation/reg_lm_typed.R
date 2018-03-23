@@ -1,3 +1,9 @@
+#' Purpose: Imputes missing values of covariates using linear regression and top 5 correlated covariates
+#' Inputs: data/background.csv, data/variables/continuous.txt, data/variables/categorical.txt
+#' Outputs: data/imputed/imputed-lm-vartype.rds
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(devtools)

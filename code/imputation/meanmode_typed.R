@@ -1,3 +1,9 @@
+#' Purpose: Imputes missing values of covariates using central tendency
+#' Inputs: data/background.csv, data/variables/continuous.txt, data/variables/categorical.txt
+#' Outputs: data/imputed/meanmode_imputed.rds
+#' Machine used: cluster
+#' Expected runtime: hour
+
 set.seed(123)
 
 library(devtools)
