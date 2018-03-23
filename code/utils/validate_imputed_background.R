@@ -1,3 +1,6 @@
+#' Purpose: preprocessing of imputed rds files before model runs
+#' (See run files for run information)
+
 library(dplyr)
 library(readr)
 

@@ -1,3 +1,6 @@
+#' Purpose: create directories for predictions and zip automatically
+#' (See run files for run information)
+
 library(readr)
 
 zip_prediction <- function(prediction, name, run_file = "run_lasso.R") {

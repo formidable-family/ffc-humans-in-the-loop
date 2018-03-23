@@ -1,3 +1,9 @@
+#' Purpose: approximately tune alpha parameter for different outcomes (NOT RUN AGAIN)
+#' Inputs: run_lasso.R
+#' Outputs: hardcoded series of alpha values
+#' Machine used: laptop
+#' Expected runtime: hour
+
 # notes ----
 # run run_lasso.R to set up, through line 59
 
