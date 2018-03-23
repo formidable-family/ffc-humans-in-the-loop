@@ -1,3 +1,9 @@
+#' Purpose: produce one set of predictions, using all possible covariates, from one imputed data set
+#' Inputs: data/imputed/imputed-fulldata-lasso.rds
+#' Outputs: output/predictions/glmnet_lasso_all/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(dplyr)

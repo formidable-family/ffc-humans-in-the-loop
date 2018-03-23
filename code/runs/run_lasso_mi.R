@@ -1,3 +1,9 @@
+#' Purpose: produce three sets of predictions, using ffvars subset of covariates, from an average of 5 imputations of one data set
+#' Inputs: data/imputed/background_ffvars_amelia.rds
+#' Outputs: output/predictions/{glmnet_mi_h, glmnet_mi_h_experts, glmnet_mi_h_mturkers}/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(dplyr)

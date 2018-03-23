@@ -1,3 +1,9 @@
+#' Purpose: produce one set of predictions, using constructed subset of covariates, from one imputed data set
+#' Inputs: data/imputed/imputed-lm-vartype.rds
+#' Outputs: output/predictions/glmnet_lm_constructed/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(dplyr)

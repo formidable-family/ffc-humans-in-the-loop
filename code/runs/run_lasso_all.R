@@ -1,3 +1,9 @@
+#' Purpose: produce three sets of predictions, using all possible covariates, from one imputed data set
+#' Inputs: data/imputed/imputed-lm-vartype.rds
+#' Outputs: output/predictions/{glmnet_lm_all, glmnet_lm_all_experts, glmnet_lm_all_mturkers}/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(dplyr)

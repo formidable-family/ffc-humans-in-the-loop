@@ -1,3 +1,9 @@
+#' Purpose: produce one set of predictions, using constructed subset of covariates, from an average of 5 imputations of one data set
+#' Inputs: data/imputed/background_constructed_amelia.rds
+#' Outputs: output/predictions/glmnet_mi_constructed/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hours
+
 set.seed(123)
 
 library(dplyr)

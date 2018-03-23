@@ -1,3 +1,10 @@
+#' Purpose: produce one set of predictions, using constructed subset of covariates, from one imputed data set
+#' Inputs: data/imputed/imputed-lasso-constructed.rds
+#' Outputs: output/predictions/glmnet_lasso_constructed/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hours
+
+
 set.seed(123)
 
 library(dplyr)

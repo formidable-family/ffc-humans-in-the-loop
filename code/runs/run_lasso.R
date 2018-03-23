@@ -1,3 +1,9 @@
+#' Purpose: Produce 12 sets of predictions from four imputed data sets
+#' Inputs: imputed-fulldata-lasso.rds, meanmode_imputed.rds, imputed-lm-vartype.rds, imputed-lm-untyped.rds from data/imputed/
+#' Outputs: output/predictions/{glmnet_lasso_h, glmnet_mean_h, glmnet_lm_h, glmnet_lmuntyped_h, glmnet_lasso_h_experts, glmnet_mean_h_experts, glmnet_lm_h_experts, glmnet_lmuntyped_h_experts, glmnet_lasso_h_mturkers, glmnet_mean_h_mturkers, glmnet_lm_h_mturkers, glmnet_lmuntyped_h_mturkers directories}/prediction.csv
+#' Machine used: cluster
+#' Expected runtime: hour
+
 set.seed(123)
 
 library(dplyr)
