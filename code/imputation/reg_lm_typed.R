@@ -16,15 +16,6 @@ library(FFCRegressionImputation)
 library(dplyr)
 library(readr)
 
-# FFCRegressionImputation only supports parallelization 
-# on unix-based systems
-if (.Platform$OS.type == "unix") {
-  reg_parallel <- 1
-} else {
-  reg_parallel <- 0
-}
-
-
 # read background data
 yourDF <- initImputation(data = "data/background.csv") 
 
@@ -42,7 +33,7 @@ lm_typed_df <- regImputation(yourDF, output_typed,
                              categorical = vars_categorical, 
                              top_predictors = 5, 
                              threshold = .1,
-                             parallel = reg_parallel, 
+                             parallel = 0, 
                              failmode = "impute")
 
 saveRDS(lm_typed_df, "data/imputed/imputed-lm-vartype.rds")

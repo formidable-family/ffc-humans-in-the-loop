@@ -16,15 +16,6 @@ library(FFCRegressionImputation)
 library(dplyr)
 library(readr)
 
-# FFCRegressionImputation only supports parallelization 
-# on unix-based systems
-if (.Platform$OS.type == "unix") {
-  reg_parallel <- 1
-} else {
-  reg_parallel <- 0
-}
-
-
 # read background data
 yourDF <- initImputation(data = "data/background.csv") 
 
@@ -37,7 +28,7 @@ lasso_untyped_constructed_df <- regImputation(yourDF, output_untyped,
                                               method = "lasso",
                                               top_predictors = 5, 
                                               threshold = .1, 
-                                              parallel = reg_parallel, 
+                                              parallel = 0, 
                                               failmode = "impute")
 
 saveRDS(lasso_untyped_constructed_df, "data/imputed/imputed-lasso-constructed.rds")

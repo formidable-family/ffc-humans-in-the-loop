@@ -16,15 +16,6 @@ library(FFCRegressionImputation)
 library(dplyr)
 library(readr)
 
-# FFCRegressionImputation only supports parallelization 
-# on unix-based systems
-if (.Platform$OS.type == "unix") {
-  reg_parallel <- 1
-} else {
-  reg_parallel <- 0
-}
-
-
 # read background data
 yourDF <- initImputation(data = "data/background.csv") 
 
@@ -44,7 +35,7 @@ meanmode_typed_df <- regImputation(yourDF, output_typed,
                                    threshold = 1, 
                                    continuous = vars_continuous, 
                                    categorical = vars_categorical,
-                                   parallel = reg_parallel, 
+                                   parallel = 0, 
                                    failmode = "impute")
 
 saveRDS(meanmode_typed_df, "data/imputed/meanmode_imputed.rds")
