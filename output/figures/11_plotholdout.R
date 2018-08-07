@@ -225,7 +225,7 @@ g.tmp<-ggplot(
     legend.direction='horizontal'
   )
 g.tmp
-tmpname<-"fig_permutations.pdf"
+tmpname<-"fig_permutations.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -304,17 +304,18 @@ plotdf$missing<-factor(
 )
 
 tmplevels<-c(
-  "rankings",
   "missing",
   "subset",
-  "priors"
+  "priors",
+  "rankings"
 )
 tmplabels<-c(
-  "Humans in the Loop?",
   "Imputation",
   "Subsetting",
-  "Scores"
+  "Scoring",
+  "Humans in the Loop?"
 )
+
 plotdf$comparison<-factor(
   plotdf$comparison,
   tmplevels,
@@ -365,7 +366,7 @@ g.tmp<-ggplot(
     legend.direction='horizontal'
   )
 g.tmp
-tmpname<-"fig_permutations_full.pdf"
+tmpname<-"fig_permutations_full.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -485,7 +486,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rawscores_unrestricted.pdf"
+tmpname<-"fig_rawscores_unrestricted.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -515,7 +516,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rawscores.pdf"
+tmpname<-"fig_rawscores.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -679,7 +680,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rankings.pdf"
+tmpname<-"fig_rankings.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -831,7 +832,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_subset.pdf"
+tmpname<-"fig_subset.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -983,7 +984,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_scores.pdf"
+tmpname<-"fig_scores.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1122,7 +1123,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_missing.pdf"
+tmpname<-"fig_missing.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1181,16 +1182,16 @@ plotdf$x<-factor(
 )
 
 tmplevels<-c(
-  "rankings",
   "missing",
   "subset",
-  "priors"
+  "priors",
+  "rankings"
 )
 tmplabels<-c(
-  "Humans in the Loop?",
-  "Imputation",
-  "Subsetting",
-  "Scores"
+  "(a) Imputation",
+  "(b) Subsetting",
+  "(c) Scoring",
+  "(d) Humans in the Loop?"
 )
 plotdf$comparison<-factor(
   plotdf$comparison,
@@ -1249,7 +1250,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_overall.pdf"
+tmpname<-"fig_overall.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1286,7 +1287,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_overall_mag.pdf"
+tmpname<-"fig_overall_mag.png"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1298,9 +1299,9 @@ gs.list[[tmpname]]<-list(
 ###########################################
 
 # #restrict to graphs for paper
-# gs.list$fig_rankings.pdf<-
-#   gs.list$fig_scores.pdf<-
-#   gs.list$fig_subset.pdf<-NULL
+# gs.list$fig_rankings.png<-
+#   gs.list$fig_scores.png<-
+#   gs.list$fig_subset.png<-NULL
 
 #any quantities we want for the paper
 
@@ -1329,18 +1330,18 @@ for(i in this.sequence) {
   
   #for fonts
   # ggsave(
-  #   filename="tmp.pdf",
+  #   filename="tmp.png",
   #   plot=thiselement$graph,
   #   width=thiselement$width,
   #   height=thiselement$height
   # )
   # #embed font
   # embed_fonts(
-  #   file="tmp.pdf",
+  #   file="tmp.png",
   #   outfile=thiselement$filename
   # )
   # file.remove(
-  #   "tmp.pdf"
+  #   "tmp.png"
   # )
 }
 
