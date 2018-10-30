@@ -9,3 +9,4 @@ data/train.csv
 *.rds
 output/predictions/*.R
 output/predictions/zipped/
+*.RData
