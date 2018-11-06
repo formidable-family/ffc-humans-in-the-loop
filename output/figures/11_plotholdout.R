@@ -225,7 +225,7 @@ g.tmp<-ggplot(
     legend.direction='horizontal'
   )
 g.tmp
-tmpname<-"fig_permutations.png"
+tmpname<-"fig_permutations.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -366,7 +366,7 @@ g.tmp<-ggplot(
     legend.direction='horizontal'
   )
 g.tmp
-tmpname<-"fig_permutations_full.png"
+tmpname<-"fig_permutations_full.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -486,7 +486,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rawscores_unrestricted.png"
+tmpname<-"fig_rawscores_unrestricted.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -516,7 +516,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rawscores.png"
+tmpname<-"fig_rawscores.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -680,7 +680,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rankings.png"
+tmpname<-"fig_rankings.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -832,7 +832,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_subset.png"
+tmpname<-"fig_subset.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -984,7 +984,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_scores.png"
+tmpname<-"fig_scores.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1123,7 +1123,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_missing.png"
+tmpname<-"fig_missing.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1250,7 +1250,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_overall.png"
+tmpname<-"fig_overall.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1287,7 +1287,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_overall_mag.png"
+tmpname<-"fig_overall_mag.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
