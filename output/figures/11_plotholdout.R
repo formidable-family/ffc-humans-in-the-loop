@@ -366,7 +366,7 @@ g.tmp<-ggplot(
     legend.direction='horizontal'
   )
 g.tmp
-tmpname<-"fig_permutations_full.eps"
+tmpname<-"figure3_permutations_full.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -486,7 +486,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rawscores_unrestricted.eps"
+tmpname<-"figure6_rawscores_unrestricted.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -516,7 +516,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_rawscores.eps"
+tmpname<-"figure2_rawscores.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1250,7 +1250,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_overall.eps"
+tmpname<-"figure4_overall.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
@@ -1287,7 +1287,7 @@ g.tmp<-ggplot(
     base_size=14
   ) 
 
-tmpname<-"fig_overall_mag.eps"
+tmpname<-"figure5_overall_mag.eps"
 gs.list[[tmpname]]<-list(
   graph=g.tmp,
   filename=tmpname,
