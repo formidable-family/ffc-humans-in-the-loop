@@ -1262,6 +1262,7 @@ gs.list[[tmpname]]<-list(
 
 plotdf.tmp<-plotdf[plotdf$var%in%c("% Impr. Rel. Baseline"),]
 plotdf.tmp$val <- -1 * round(plotdf.tmp$val,2)
+plotdf.tmp <- dplyr::mutate(plotdf.tmp, x = forcats::fct_reorder(x, val))
 g.tmp<-ggplot(
   plotdf.tmp,
   aes(
